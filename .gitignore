@@ -1,2 +1,5 @@
 .sass-cache/
 *.css.map
+.DS_Store
+public/lib/node_modules
+public/lib/bower_components
