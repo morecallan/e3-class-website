@@ -1,0 +1,194 @@
+{ "students": {
+
+    "andi": {
+      "firstName": "Andi",
+      "lastName": "DeVois",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/devoisaurus",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    "bernie": {
+      "firstName": "Bernie",
+      "lastName": "Anderson",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/bernardanderson",
+      "linkedin": "https://www.linkedin.com/in/andersonbm",
+      "portfolio": "",
+      "image": ""
+    },
+    "bradley": {
+      "firstName": "Bradley",
+      "lastName": "Guthrie",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/guthb",
+      "linkedin": "https://www.linkedin.com/in/bradleyguthrie",
+      "portfolio": "",
+      "image": ""
+    },
+    "callan": {
+      "firstName": "Callan",
+      "lastName": "Morrison",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/morecallan",
+      "linkedin": "https://www.linkedin.com/in/callanmorrison",
+      "portfolio": "",
+      "image": ""
+    },
+    "chris": {
+      "firstName": "Chris",
+      "lastName": "Barrett",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/csbarrett1",
+      "linkedin": "https://www.linkedin.com/in/chris-barrett-031b50108",
+      "portfolio": "",
+      "image": ""
+    },
+    "dan": {
+      "firstName": "Dan",
+      "lastName": "Ventura",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/danwventura",
+      "linkedin": "https://www.linkedin.com/in/daniel-ventura-6543a570",
+      "portfolio": "",
+      "image": ""
+    },
+    "david": {
+      "firstName": "David",
+      "lastName": "Cramb",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/davidcramb",
+      "linkedin": "https://www.linkedin.com/in/davidcramb",
+      "portfolio": "",
+      "image": ""
+    },
+    "dhru": {
+      "firstName": "Dhru",
+      "lastName": "Upender",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/dupender",
+      "linkedin": "https://www.linkedin.com/in/dupender",
+      "portfolio": "",
+      "image": ""
+    },
+    "janelle": {
+      "firstName": "Janelle",
+      "lastName": "Zorvan",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/JZorvan",
+      "linkedin": "https://www.linkedin.com/in/janelle-zorvan-243ab9a3",
+      "portfolio": "",
+      "image": ""
+    },
+    "katye": {
+      "firstName": "Katye",
+      "lastName": "Russell",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/complikatyed",
+      "linkedin": "https://www.linkedin.com/in/katyerussell",
+      "portfolio": "katyerussell.com",
+      "image": ""
+    },
+    "matt": {
+      "firstName": "Matt",
+      "lastName": "Bruton",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/mattbruton",
+      "linkedin": "https://www.linkedin.com/in/matt-bruton-490950120",
+      "portfolio": "",
+      "image": ""
+    },
+    "odie": {
+      "firstName": "Odie",
+      "lastName": "Joseph",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/Odigene12",
+      "linkedin": "https://www.linkedin.com/in/odigene-joseph-805b3870",
+      "portfolio": "",
+      "image": ""
+    },
+    "paul": {
+      "firstName": "Paul",
+      "lastName": "Williams",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/VikingPaul",
+      "linkedin": "https://www.linkedin.com/in/vikingpaul",
+      "portfolio": "",
+      "image": ""
+    },
+    "ryan": {
+      "firstName": "Ryan",
+      "lastName": "Bliton",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/ryan-b-writin",
+      "linkedin": "https://www.linkedin.com/in/ryan-bilton-73207075",
+      "portfolio": "",
+      "image": ""
+    },
+    "sandy": {
+      "firstName": "Sandy",
+      "lastName": "Jones",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/SandraJones",
+      "linkedin": "https://www.linkedin.com/in/sandra-jones-24210176",
+      "portfolio": "",
+      "image": ""
+    },
+    "scott": {
+      "firstName": "Scott",
+      "lastName": "Schaffer",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/scottpschaffer",
+      "linkedin": "https://www.linkedin.com/in/scott-schaffer-7821aa53",
+      "portfolio": "",
+      "image": ""
+    },
+    "sylvia": {
+      "firstName": "Sylvia",
+      "lastName": "Ma",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/sylviama",
+      "linkedin": "https://www.linkedin.com/in/sylvia-xiangwan-ma-2a199b32",
+      "portfolio": "",
+      "image": ""
+    },
+    "tim": {
+      "firstName": "Tim",
+      "lastName": "Maddux",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/madduxTim",
+      "linkedin": "https://www.linkedin.com/in/tim-maddux",
+      "portfolio": "",
+      "image": ""
+    },
+    "zach": {
+      "firstName": "Zach",
+      "lastName": "Parris",
+      "fullName": "",
+      "bio": "",
+      "github": "https://github.com/ZachParris",
+      "linkedin": "https://www.linkedin.com/in/zachjparris",
+      "portfolio": "",
+      "image": ""
+    }
+  }
+}
