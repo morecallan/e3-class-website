@@ -18,15 +18,15 @@ Played with the codepen on flexbox-->
       margin: 3px;
       padding: 5px;-->
       <div class="row">
-        <div id="class-faces flexbox-parent">
-          <div class="card">
+        <div id="class-faces flexbox-parent" ng-repeat="student in allStudents"> //ng-repeat through students 
+          <div class="card" ng-click="showStudentDetails(student)"> // ng-click grabs single student's details
             <!-- student photo-->
             <div class="card-image">
-              <img src="images/sample-1.jpg">
+              <img ng-src="{{student.image}}"> //student image
             </div>
             <!--student name-->
             <div class="card-content">
-              <p>First Name Only</p>
+              <p>{{student.firstName}}</p> //student first name
             </div>
 
           </div>
@@ -39,15 +39,10 @@ Played with the codepen on flexbox-->
       <div class="row">
         <div class="card  class-group-image">
           <div class="card-image">
-            <img src="images/sample-1.jpg">
+            <img ng-src="{{card.image}}">
           </div>
           <div class="card-content">
-            <p>const EveningCohort3={
-                  dayJobs: true,
-                  coffeeConsumed: "36,823lb"
-                  conqueredValleyOfDispair: true
-                }
-            </p>
+            <p ng-model="card.bio"></p>
           </div>
         </div>
       </div>
