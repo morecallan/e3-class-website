@@ -1,6 +1,6 @@
-students = [
+{ "students": {
 
-    {
+    "andi": {
       "firstName": "Andi",
       "lastName": "DeVois",
       "fullName": "",
@@ -10,7 +10,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "bernie": {
       "firstName": "Bernie",
       "lastName": "Anderson",
       "fullName": "",
@@ -20,7 +20,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "bradley": {
       "firstName": "Bradley",
       "lastName": "Guthrie",
       "fullName": "",
@@ -30,7 +30,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "callan": {
       "firstName": "Callan",
       "lastName": "Morrison",
       "fullName": "",
@@ -40,7 +40,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "chris": {
       "firstName": "Chris",
       "lastName": "Barrett",
       "fullName": "",
@@ -50,7 +50,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "dan": {
       "firstName": "Dan",
       "lastName": "Ventura",
       "fullName": "",
@@ -60,7 +60,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "david": {
       "firstName": "David",
       "lastName": "Cramb",
       "fullName": "",
@@ -70,7 +70,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "dhru": {
       "firstName": "Dhru",
       "lastName": "Upender",
       "fullName": "",
@@ -80,7 +80,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "janelle": {
       "firstName": "Janelle",
       "lastName": "Zorvan",
       "fullName": "",
@@ -90,7 +90,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "katye": {
       "firstName": "Katye",
       "lastName": "Russell",
       "fullName": "",
@@ -100,7 +100,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "matt": {
       "firstName": "Matt",
       "lastName": "Bruton",
       "fullName": "",
@@ -110,7 +110,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "odie": {
       "firstName": "Odie",
       "lastName": "Joseph",
       "fullName": "",
@@ -120,7 +120,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "paul": {
       "firstName": "Paul",
       "lastName": "Williams",
       "fullName": "",
@@ -130,7 +130,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "ryan": {
       "firstName": "Ryan",
       "lastName": "Bliton",
       "fullName": "",
@@ -140,7 +140,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "sandy": {
       "firstName": "Sandy",
       "lastName": "Jones",
       "fullName": "",
@@ -150,7 +150,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "scott": {
       "firstName": "Scott",
       "lastName": "Schaffer",
       "fullName": "",
@@ -160,7 +160,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "sylvia": {
       "firstName": "Sylvia",
       "lastName": "Ma",
       "fullName": "",
@@ -170,7 +170,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "tim": {
       "firstName": "Tim",
       "lastName": "Maddux",
       "fullName": "",
@@ -180,7 +180,7 @@ students = [
       "portfolio": "",
       "image": ""
     },
-    {
+    "zach": {
       "firstName": "Zach",
       "lastName": "Parris",
       "fullName": "",
@@ -190,4 +190,5 @@ students = [
       "portfolio": "",
       "image": ""
     }
-  ]
+  }
+}
