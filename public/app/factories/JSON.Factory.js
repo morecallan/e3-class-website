@@ -4,7 +4,6 @@ app.factory('JSONFactory', function($http){
       method: 'GET',
       url: '/data/class-info.json'
     }).success(function(data) {
-      console.log(data.students);
       var shuffledStudents = []
       for(oneStudent in data.students){
         shuffledStudents.push(data.students[oneStudent]);
