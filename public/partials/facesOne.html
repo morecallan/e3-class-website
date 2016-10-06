@@ -1,0 +1,55 @@
+<!-- main div that hold people search, image and name of sudent
+Played with the codepen on flexbox-->
+
+<div id="class-page" class="row">
+  <div class="col m9">
+    <!-- People search box-->
+      <div class="row">
+        <div class="col m10 offset-1">
+          <form  class="searchbox">
+            <input id="search-box-input" type="text" name="peoplesearch" placeholder="Find Your Person">
+          </form>
+        </div>
+      </div>
+      <!-- card for student, ng-repet using flexbox i.e
+      display: inline-block;
+      background: white;
+      overflow: hidden;
+      margin: 3px;
+      padding: 5px;-->
+      <div class="row">
+        <div id="class-faces flexbox-parent">
+          <div class="card">
+            <!-- student photo-->
+            <div class="card-image">
+              <img src="images/sample-1.jpg">
+            </div>
+            <!--student name-->
+            <div class="card-content">
+              <p>First Name Only</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </div>
+
+    <!-- Class Card that shows smaller group photo and text on right-->
+    <div id="class-card" class="col m3">
+      <div class="row">
+        <div class="card  class-group-image">
+          <div class="card-image">
+            <img src="images/sample-1.jpg">
+          </div>
+          <div class="card-content">
+            <p>const EveningCohort3={
+                  dayJobs: true,
+                  coffeeConsumed: "36,823lb"
+                  conqueredValleyOfDispair: true
+                }
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

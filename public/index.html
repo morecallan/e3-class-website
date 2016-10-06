@@ -8,11 +8,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
     <!-- Materialize: NECESSARY FOR ICONS -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></link>
     <link rel="stylesheet" href="/styles/main.css" media="screen">
   </head>
   <body ng-app="ClassWebsite">
 
     <div ng-view></div>
+    <!--sticky nav bar that show the group navigation and the technology navigation -->
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper">
+          <h1>Evening Cohort 3</h1>
+          <h5>Part-Time Students, Full-Time Coders</h5>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="facesOne.html"><i class="fa fa-group" aria-hidden="true"></i></a></li>
+            <li><a href="Techology.html"><i class="fa fa-gears" aria-hidden="true"></i></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
 
     <!-- Materialize: jQuery (necessary for Materialize's JavaScript plugins) -->
