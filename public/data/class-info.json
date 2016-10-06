@@ -1,0 +1,193 @@
+students = [
+
+    {
+      "firstName": "Andi",
+      "lastName": "DeVois",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Bernie",
+      "lastName": "Anderson",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Bradley",
+      "lastName": "Guthrie",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Callan",
+      "lastName": "Morrison",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Chris",
+      "lastName": "Barrett",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Dan",
+      "lastName": "Ventura",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "David",
+      "lastName": "Cramb",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Dhru",
+      "lastName": "Upender",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Janelle",
+      "lastName": "Zorvan",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Katye",
+      "lastName": "Russell",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Matt",
+      "lastName": "Bruton",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Odie",
+      "lastName": "Joseph",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Paul",
+      "lastName": "Williams",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Ryan",
+      "lastName": "Bliton",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Sandy",
+      "lastName": "Jones",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Scott",
+      "lastName": "Schaffer",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Sylvia",
+      "lastName": "Ma",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Tim",
+      "lastName": "Maddux",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    },
+    {
+      "firstName": "Zach",
+      "lastName": "Parris",
+      "fullName": "",
+      "bio": "",
+      "github": "",
+      "linkedin": "",
+      "portfolio": "",
+      "image": ""
+    }
+  ]
