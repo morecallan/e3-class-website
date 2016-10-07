@@ -4,10 +4,27 @@
   height: 93vh; }
 
 nav {
+  height: 12vh !important;
   background-color: #F2F0D0 !important;
-  color: #024059;
-  font-family: "Courier New";
-  font-weight: bold; }
+  text-align: center; }
+  nav h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #024059;
+    letter-spacing: 6px;
+    margin: 5px 0;
+    padding: 0; }
+  nav h5 {
+    font-family: 'Roboto', monospace;
+    color: #2198A6;
+    letter-spacing: 8px;
+    margin: -5px 0 0;
+    padding: 0; }
+  nav i {
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(33, 152, 166, 0.6));
+    padding: 10% !important;
+    font-size: 50px !important;
+    color: #123441; }
 
 body {
   max-height: 100vh !important;
