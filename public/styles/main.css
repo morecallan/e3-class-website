@@ -1,10 +1,27 @@
 #class-page {
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
-  height: 93vh; }
+  height: 93vh;
+  padding-top: 5%; }
+
+#class-card .content {
+  margin: 10px;
+  padding: 10%;
+  height: 75vh;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4) !important; }
+  #class-card .content .card {
+    background: none; }
+  #class-card .content .card-content {
+    padding: 5%;
+    background-color: #012340;
+    color: #F2F0D0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px; }
 
 nav {
-  height: 12vh !important;
+  min-height: 12vh !important;
+  overflow: hidden;
   background-color: #F2F0D0 !important;
   text-align: center; }
   nav h3 {
@@ -18,7 +35,7 @@ nav {
     font-family: 'Roboto', monospace;
     color: #2198A6;
     letter-spacing: 8px;
-    margin: -5px 0 0;
+    margin: -10px 0 0;
     padding: 0; }
   nav i {
     -webkit-filter: drop-shadow(2px 2px 1px rgba(33, 152, 166, 0.6));

@@ -1,8 +1,8 @@
 @import "../globals/colors";
 
 nav {
-  height: 12vh !important;
-  // overflow: hidden;
+  min-height: 12vh !important;
+  overflow: hidden;
   background-color: $ycream !important;
 
 
@@ -22,7 +22,7 @@ nav {
     font-family: 'Roboto', monospace;
     color: $blue-light;
     letter-spacing: 8px;
-    margin: -5px 0 0;
+    margin: -10px 0 0;
     padding: 0;
   }
 
