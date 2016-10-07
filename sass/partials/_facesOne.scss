@@ -36,3 +36,32 @@
     }
   }
 }
+
+#class-faces {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: -20px;
+
+  .card {
+    margin: 1% 2.5%;
+    width: 15%;
+    padding: 0 !important;
+    background: none;
+
+    img {
+      background: white;
+      max-width: 100px !important;
+      max-height: 100px !important;
+      margin: auto;
+      border-radius: 100%;
+    }
+
+    .card-content {
+      padding: 0;
+      color: $ycream;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}
