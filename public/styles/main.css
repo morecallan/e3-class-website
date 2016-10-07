@@ -1,8 +1,14 @@
 #class-page {
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
-  height: 93vh;
-  padding-top: 5%; }
+  height: 92vh;
+  padding-top: 3%; }
+
+.searchbox {
+  margin: 0; }
+  .searchbox #search-box-input:focus {
+    border-bottom: #2198A6 !important;
+    box-shadow: 0 1px 0 0 #2198A6 !important; }
 
 #class-card .content {
   margin: 10px;
@@ -11,7 +17,8 @@
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.4) !important; }
   #class-card .content .card {
-    background: none; }
+    background: none;
+    box-shadow: none !important; }
   #class-card .content img {
     border-radius: 5px; }
   #class-card .content .card-content {
@@ -33,7 +40,9 @@
     margin: 1% 2.5%;
     width: 15%;
     padding: 0 !important;
-    background: none; }
+    background: none;
+    box-shadow: none;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(1, 35, 64, 0.4)); }
     #class-faces .card img {
       background: white;
       max-width: 100px !important;

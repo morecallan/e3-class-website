@@ -4,8 +4,17 @@
 #class-page {
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
-  height: 93vh;
-  padding-top: 5%;
+  height: 92vh;
+  padding-top: 3%;
+}
+
+.searchbox {
+  margin: 0;
+
+  #search-box-input:focus {
+    border-bottom: $blue-light !important;
+    box-shadow: 0 1px 0 0 $blue-light !important;
+  }
 }
 
 #class-card {
@@ -18,6 +27,7 @@
 
     .card {
       background: none;
+      box-shadow: none !important;
     }
 
     img {
@@ -48,6 +58,9 @@
     width: 15%;
     padding: 0 !important;
     background: none;
+    box-shadow: none;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba($blue-dark, 0.4));
+
 
     img {
       background: white;
