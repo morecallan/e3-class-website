@@ -11,7 +11,7 @@
 #class-card {
   .content {
     margin: 10px;
-    padding: 10px;
+    padding: 50px 10px;
     height: 75vh;
     border-radius: 5px;
     background-color: rgba(white, 0.4) !important;
@@ -20,10 +20,16 @@
       background: none;
     }
 
+    img {
+      border-radius: 5px;
+    }
+
     .card-content {
-      word-wrap: break-word;
+      margin-top: 50px;
       padding: 15px;
+      border-radius: 2px;
       background-color: $blue-dark;
+      word-wrap: break-word;
       color: $ycream;
       font-family: 'Source Code Pro', monospace;
       font-size: 12px;
