@@ -14,79 +14,11 @@
   </head>
   <body ng-app="ClassWebsite">
 
+    <div ng-include="'partials/nav.html'"></div>
     <div ng-view></div>
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper">
-          <div  class="brand-logo center">
-            <h3>&#60;Evening Cohort 3/&#62;</h3>
-            <h5>Part-Time Students, Full-Time Coders</h5>
-          </div>
 
 
-          <ul class="right hide-on-med-and-down">
-            <li><a href="facesOne.html"><i class="fa fa-group" aria-hidden="true"></i></a></li>
-            <li><a href="Techology.html"><i class="fa fa-gears" aria-hidden="true"></i></i></a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
 
-    <div id="class-page" class="row">
-      <div class="col m9">
-        <!-- People search box-->
-          <div class="row">
-            <div class="col m10 offset-m1">
-              <form class="searchbox">
-                <input id="search-box-input" type="text" name="peoplesearch" placeholder="Find Your Person">
-              </form>
-            </div>
-          </div>
-          <!-- card for student, ng-repet using flexbox i.e
-          display: inline-block;
-          background: white;
-          overflow: hidden;
-          margin: 3px;
-          padding: 5px;-->
-          <div class="row">
-            <div id="class-faces">
-              <div class="card">
-                <!-- student photo-->
-                <div class="card-image">
-                  <img src="http://www.clker.com/cliparts/7/4/c/4/1446118397610284725jobs.png">
-                </div>
-                <!--student name-->
-                <div class="card-content">
-                  <p>Katye</p>
-                </div>
-              </div>
-            </div>
-          </div>
-      </div>
-
-        <!-- Class Card that shows smaller group photo and text on right-->
-        <div id="class-card" class="col m3">
-          <div class="content">
-
-            <div class="row">
-              <div class="card  class-group-image">
-                <div class="card-image">
-                  <img src="https://cdn.globalexperiences.com/wp-content/uploads/summer-ny-group.jpg">
-                </div>
-                <div class="card-content">
-                  <p> const EveningCohort3 = { <br />
-                      &nbsp;dayJobs: true, <br />
-                      &nbsp;coffeeConsumed: "36,823lb", <br />
-                      &nbsp;conqueredValleyOfDespair: true <br />
-                      }
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
 
 
     <!-- Materialize: jQuery (necessary for Materialize's JavaScript plugins) -->
