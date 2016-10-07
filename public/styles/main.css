@@ -1,0 +1,14 @@
+#class-page {
+  background: url("../img/Background.png") center center no-repeat;
+  background-size: cover;
+  height: 93vh; }
+
+nav {
+  background-color: #F2F0D0 !important;
+  color: #024059;
+  font-family: "Courier New";
+  font-weight: bold; }
+
+body {
+  max-height: 100vh !important;
+  overflow: hidden; }
