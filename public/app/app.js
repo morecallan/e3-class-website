@@ -3,17 +3,15 @@
 var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate"])
 
 
-/*
 app.config(function($routeProvider) {
     $routeProvider
         .when("/splash", {
             templateUrl: "partials/splash.html",
-            controller:  "splashCtrl"
+            // controller:  "splashCtrl"
         })
-        .when("/project/:projectName", {
-            templateUrl: "partials/project.html",
-            controller:  "projectCtrl"
+        .when("/people", {
+            templateUrl: "partials/facesOne.html",
+            // controller:  "projectCtrl"
         })
-        .otherwise("/splash");
+        .otherwise("/people");
 });
-*/
