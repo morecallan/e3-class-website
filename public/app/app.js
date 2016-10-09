@@ -3,6 +3,7 @@
 var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate"])
 
 
+
 app.config(function($routeProvider) {
     $routeProvider
         .when("/splash", {
@@ -11,7 +12,7 @@ app.config(function($routeProvider) {
         })
         .when("/people", {
             templateUrl: "partials/facesOne.html",
-            // controller:  "projectCtrl"
+            controller:  "FacesCtrl"
         })
         .otherwise("/people");
 });
