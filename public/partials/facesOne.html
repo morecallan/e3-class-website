@@ -18,15 +18,15 @@ Played with the codepen on flexbox-->
       margin: 3px;
       padding: 5px;-->
       <div class="row">
-        <div id="class-faces" ng-repeat="student in allStudents"> //ng-repeat through students 
-          <div class="card" ng-click="showStudentDetails(student)"> // ng-click grabs single student's details
+        <div id="class-faces" ng-repeat="student in students"> <!-- //ng-repeat through students --> 
+          <div class="card" ng-click="showStudentDetails(student)"><!-- // ng-click grabs single student's details -->
             <!-- student photo-->
             <div class="card-image">
-              <img ng-src="{{student.image}}"> //student image
+              <img ng-src="{{student.image}}"> <!-- //student image -->
             </div>
             <!--student name-->
             <div class="card-content">
-              <p>{{student.firstName}}</p> //student first name
+              <p>{{student.firstName}}</p> <!-- //student first name -->
             </div>
           </div>
         </div>
