@@ -1,0 +1,36 @@
+@import "../globals/colors";
+
+nav {
+  min-height: 12vh !important;
+  overflow: hidden;
+  background-color: $ycream !important;
+
+
+  text-align: center;
+
+
+  h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: $blue-mid;
+    letter-spacing: 6px;
+    margin: 5px 0;
+    padding: 0;
+  }
+
+  h5 {
+    font-family: 'Roboto', monospace;
+    color: $blue-light;
+    letter-spacing: 8px;
+    margin: -10px 0 0;
+    padding: 0;
+  }
+
+  i {
+    -webkit-filter: drop-shadow(2px 2px 1px rgba($blue-light, 0.6));
+    padding: 10% !important;
+    font-size: 50px !important;
+    color: $buildings;
+  }
+
+}
