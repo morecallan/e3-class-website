@@ -8,7 +8,8 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
   };
 
 //Calling JSONFactory function that gets all students JSON object
-  JSONFactory.getAllStudents().then(function(allStudents){
+  JSONFactory.getAllStudents() 
+  .then (function(allStudents){
 
     $scope.students = allStudents;
 

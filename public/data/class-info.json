@@ -8,7 +8,8 @@
       "github": "https://github.com/devoisaurus",
       "linkedin": "",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "bernie": {
       "firstName": "Bernie",
@@ -18,7 +19,8 @@
       "github": "https://github.com/bernardanderson",
       "linkedin": "https://www.linkedin.com/in/andersonbm",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "bradley": {
       "firstName": "Bradley",
@@ -28,7 +30,8 @@
       "github": "https://github.com/guthb",
       "linkedin": "https://www.linkedin.com/in/bradleyguthrie",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "callan": {
       "firstName": "Callan",
@@ -38,7 +41,8 @@
       "github": "https://github.com/morecallan",
       "linkedin": "https://www.linkedin.com/in/callanmorrison",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "chris": {
       "firstName": "Chris",
@@ -48,7 +52,8 @@
       "github": "https://github.com/csbarrett1",
       "linkedin": "https://www.linkedin.com/in/chris-barrett-031b50108",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "dan": {
       "firstName": "Dan",
@@ -58,7 +63,8 @@
       "github": "https://github.com/danwventura",
       "linkedin": "https://www.linkedin.com/in/daniel-ventura-6543a570",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "david": {
       "firstName": "David",
@@ -68,7 +74,8 @@
       "github": "https://github.com/davidcramb",
       "linkedin": "https://www.linkedin.com/in/davidcramb",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "dhru": {
       "firstName": "Dhru",
@@ -78,7 +85,8 @@
       "github": "https://github.com/dupender",
       "linkedin": "https://www.linkedin.com/in/dupender",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "janelle": {
       "firstName": "Janelle",
@@ -88,7 +96,8 @@
       "github": "https://github.com/JZorvan",
       "linkedin": "https://www.linkedin.com/in/janelle-zorvan-243ab9a3",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "katye": {
       "firstName": "Katye",
@@ -98,7 +107,8 @@
       "github": "https://github.com/complikatyed",
       "linkedin": "https://www.linkedin.com/in/katyerussell",
       "portfolio": "katyerussell.com",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "matt": {
       "firstName": "Matt",
@@ -108,7 +118,8 @@
       "github": "https://github.com/mattbruton",
       "linkedin": "https://www.linkedin.com/in/matt-bruton-490950120",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "odie": {
       "firstName": "Odie",
@@ -118,7 +129,8 @@
       "github": "https://github.com/Odigene12",
       "linkedin": "https://www.linkedin.com/in/odigene-joseph-805b3870",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "paul": {
       "firstName": "Paul",
@@ -128,7 +140,8 @@
       "github": "https://github.com/VikingPaul",
       "linkedin": "https://www.linkedin.com/in/vikingpaul",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "ryan": {
       "firstName": "Ryan",
@@ -138,7 +151,8 @@
       "github": "https://github.com/ryan-b-writin",
       "linkedin": "https://www.linkedin.com/in/ryan-bilton-73207075",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "sandy": {
       "firstName": "Sandy",
@@ -148,7 +162,8 @@
       "github": "https://github.com/SandraJones",
       "linkedin": "https://www.linkedin.com/in/sandra-jones-24210176",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "scott": {
       "firstName": "Scott",
@@ -156,9 +171,10 @@
       "fullName": "",
       "bio": "",
       "github": "https://github.com/scottpschaffer",
-      "linkedin": "https://www.linkedin.com/in/scott-schaffer-7821aa53",
+      "linkedin": "https://www.linkedin.com/in/scott-p-schaffer",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "sylvia": {
       "firstName": "Sylvia",
@@ -168,7 +184,8 @@
       "github": "https://github.com/sylviama",
       "linkedin": "https://www.linkedin.com/in/sylvia-xiangwan-ma-2a199b32",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "tim": {
       "firstName": "Tim",
@@ -178,7 +195,8 @@
       "github": "https://github.com/madduxTim",
       "linkedin": "https://www.linkedin.com/in/tim-maddux",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     },
     "zach": {
       "firstName": "Zach",
@@ -188,7 +206,8 @@
       "github": "https://github.com/ZachParris",
       "linkedin": "https://www.linkedin.com/in/zachjparris",
       "portfolio": "",
-      "image": ""
+      "image": "",
+      "tags": []
     }
   }
 }

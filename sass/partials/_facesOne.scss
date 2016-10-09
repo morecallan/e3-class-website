@@ -1,0 +1,80 @@
+@import "../globals/colors";
+
+
+#class-page {
+  background: url("../img/Background.png") center center no-repeat;
+  background-size: cover;
+  height: 92vh;
+  padding-top: 3%;
+}
+
+.searchbox {
+  margin: 0;
+
+  #search-box-input:focus {
+    border-bottom: $blue-light !important;
+    box-shadow: 0 1px 0 0 $blue-light !important;
+  }
+}
+
+#class-card {
+  .content {
+    margin: 10px;
+    padding: 50px 10px;
+    height: 75vh;
+    border-radius: 5px;
+    background-color: rgba(white, 0.4) !important;
+
+    .card {
+      background: none;
+      box-shadow: none !important;
+    }
+
+    img {
+      border-radius: 5px;
+    }
+
+    .card-content {
+      margin-top: 50px;
+      padding: 15px;
+      border-radius: 2px;
+      background-color: $blue-dark;
+      word-wrap: break-word;
+      color: $ycream;
+      font-family: 'Source Code Pro', monospace;
+      font-size: 12px;
+    }
+  }
+}
+
+#class-faces {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: -20px;
+
+  .card {
+    margin: 1% 2.5%;
+    width: 15%;
+    padding: 0 !important;
+    background: none;
+    box-shadow: none;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba($blue-dark, 0.4));
+
+
+    img {
+      background: white;
+      max-width: 100px !important;
+      max-height: 100px !important;
+      margin: auto;
+      border-radius: 100%;
+    }
+
+    .card-content {
+      padding: 0;
+      color: $ycream;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+}

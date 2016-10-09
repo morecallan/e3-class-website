@@ -1,0 +1,84 @@
+#class-page {
+  background: url("../img/Background.png") center center no-repeat;
+  background-size: cover;
+  height: 92vh;
+  padding-top: 3%; }
+
+.searchbox {
+  margin: 0; }
+  .searchbox #search-box-input:focus {
+    border-bottom: #2198A6 !important;
+    box-shadow: 0 1px 0 0 #2198A6 !important; }
+
+#class-card .content {
+  margin: 10px;
+  padding: 50px 10px;
+  height: 75vh;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4) !important; }
+  #class-card .content .card {
+    background: none;
+    box-shadow: none !important; }
+  #class-card .content img {
+    border-radius: 5px; }
+  #class-card .content .card-content {
+    margin-top: 50px;
+    padding: 15px;
+    border-radius: 2px;
+    background-color: #012340;
+    word-wrap: break-word;
+    color: #F2F0D0;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px; }
+
+#class-faces {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: -20px; }
+  #class-faces .card {
+    margin: 1% 2.5%;
+    width: 15%;
+    padding: 0 !important;
+    background: none;
+    box-shadow: none;
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(1, 35, 64, 0.4)); }
+    #class-faces .card img {
+      background: white;
+      max-width: 100px !important;
+      max-height: 100px !important;
+      margin: auto;
+      border-radius: 100%; }
+    #class-faces .card .card-content {
+      padding: 0;
+      color: #F2F0D0;
+      text-align: center;
+      text-transform: uppercase; }
+
+nav {
+  min-height: 12vh !important;
+  overflow: hidden;
+  background-color: #F2F0D0 !important;
+  text-align: center; }
+  nav h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #024059;
+    letter-spacing: 6px;
+    margin: 5px 0;
+    padding: 0; }
+  nav h5 {
+    font-family: 'Roboto', monospace;
+    color: #2198A6;
+    letter-spacing: 8px;
+    margin: -10px 0 0;
+    padding: 0; }
+  nav i {
+    -webkit-filter: drop-shadow(2px 2px 1px rgba(33, 152, 166, 0.6));
+    padding: 10% !important;
+    font-size: 50px !important;
+    color: #123441; }
+
+body {
+  max-height: 100vh !important;
+  overflow: hidden; }
