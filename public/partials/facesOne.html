@@ -18,8 +18,8 @@ Played with the codepen on flexbox-->
       margin: 3px;
       padding: 5px;-->
       <div class="row">
-        <div id="class-faces" ng-repeat="student in students"> <!-- //ng-repeat through students --> 
-          <div class="card" ng-click="showStudentDetails(student)"><!-- // ng-click grabs single student's details -->
+        <div id="class-faces"> <!-- //ng-repeat through students -->
+          <div class="card" ng-repeat="student in students" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
             <!-- student photo-->
             <div class="card-image">
               <img ng-src="{{student.image}}"> <!-- //student image -->
@@ -36,15 +36,16 @@ Played with the codepen on flexbox-->
     <!-- Class Card that shows smaller group photo and text on right-->
     <div id="class-card" class="col m3">
       <div class="row">
-        <div class="card  class-group-image">
-          <div class="card-image">
-            <img ng-src="{{card.image}}">
-          </div>
-          <div class="card-content">
-            <p ng-model="card.bio"></p>
+        <div class="content">
+          <div class="card  class-group-image">
+            <div class="card-image">
+              <img ng-src="{{card.image}}">
+            </div>
+            <div class="card-content">
+              <p ng-model="card.bio"></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-  </div>
+</div>
