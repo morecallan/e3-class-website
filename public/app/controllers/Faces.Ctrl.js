@@ -4,23 +4,18 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
   $scope.students = [];
   $scope.card = {
     image: "image/turdface.png",
-    bio: "const EveningCohort3={ <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb' <br/> &nbsp;conqueredValleyOfDespair: true <br/>}"
+    bio: "const EveningCohort3={ <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb' <br/> &nbsp;conqueredValleyOfDespair: true <br/>}",
+    fullName: "",
+    tech: true
   };
 
 //Calling JSONFactory function that gets all students JSON object
   JSONFactory.getAllStudents() 
   .then (function(allStudents){
-    console.log(allStudents);
     $scope.students = allStudents;
+  });
 
-  })
-
-  function showStudentDetails(student){
-
+  $scope.showStudentDetails = function(student){
     $scope.card = student;
-
-  }
-
-
-
-})
+  };
+});

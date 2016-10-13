@@ -19,7 +19,7 @@ Played with the codepen on flexbox-->
       padding: 5px;-->
       <div class="row">
         <div id="class-faces"> <!-- //ng-repeat through students -->
-          <div class="card" ng-repeat="student in students" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
+          <div class="card" ng-repeat="student in students" ng-click="showStudentDetails(student)"><!-- // ng-click grabs single student's details -->
             <!-- student photo-->
             <div class="card-image">
               <img ng-src="{{student.image}}"> <!-- //student image -->
@@ -28,6 +28,7 @@ Played with the codepen on flexbox-->
             <div class="card-content">
               <p>{{student.firstName}}</p> <!-- //student first name -->
             </div>
+            
           </div>
         </div>
       </div>
@@ -41,8 +42,14 @@ Played with the codepen on flexbox-->
             <div class="card-image">
               <img ng-src="{{card.image}}">
             </div>
+            <p class="fullName">{{card.fullName}}</p>
             <div class="card-content">
-              <p ng-model="card.bio"></p>
+              <p>{{card.bio}}</p>
+            </div>
+            <div class="row" ng-hide="card.tech">
+              <a ng-href="{{card.github}}" target="_blank"><img src="img/github_480.png"></a>
+              <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
+              <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
             </div>
           </div>
         </div>
