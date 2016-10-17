@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col m10 offset-m1">
             <form class="searchbox">
-              <input id="search-box-input" type="text" name="peoplesearch" placeholder="Find Your Person">
+              <input id="search-box-input" ng-model="searchTerm" type="text" name="peoplesearch" placeholder="Find Your Person">
             </form>
           </div>
         </div>
@@ -20,7 +20,7 @@
         padding: 5px;-->
         <div class="row">
           <div id="class-faces"> <!-- //ng-repeat through students -->
-            <div class="card" ng-repeat="student in students" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
+            <div class="card" ng-repeat="student in students | filter: searchTerm" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
               <!-- student photo-->
               <div class="card-image">
                 <img ng-src="{{student.image}}"> <!-- //student image -->
