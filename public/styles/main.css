@@ -32,7 +32,9 @@
 
 .full-name {
   padding: 0;
+  margin: 5% 0;
   font-size: 20px;
+  font-weight: bold;
   letter-spacing: 3px;
   color: #024059;
   text-align: center;

@@ -4,9 +4,9 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
   $scope.students = [];
 
   $scope.card = {
-    image: "image/turdface.png",
-    bio: "<p>const EveningCohort3={ <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb' <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
-    fullName: "",
+    image: "img/class-headshots/group_photo_placeholder.png",
+    bio: "<p>const EveningCohort3 = { <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
+    fullName: "Nashville Software Schoool Evening Cohort 3",
     tech: true
   };
 
