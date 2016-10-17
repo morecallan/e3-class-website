@@ -8,11 +8,14 @@ app.config(function($routeProvider) {
     $routeProvider
         .when("/splash", {
             templateUrl: "partials/splash.html",
-            // controller:  "splashCtrl"
+            controller:  "SplashCtrl"
         })
         .when("/people", {
             templateUrl: "partials/facesOne.html",
             controller:  "FacesCtrl"
         })
-        .otherwise("/people");
+        .when("/technologies", {
+            templateUrl: "partials/technologies.html",
+        })
+        .otherwise("/splash");
 });
