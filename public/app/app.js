@@ -1,6 +1,6 @@
 "use strict";
 
-var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate"])
+var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate", "ngSanitize"])
 
 
 

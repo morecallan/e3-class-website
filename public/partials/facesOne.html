@@ -45,7 +45,8 @@
               </div>
               <p class="fullName">{{card.fullName}}</p>
               <div class="card-content">
-                <p>{{card.bio}}</p>
+                <div ng-bind-html="card.bio" ng-hide="!card.tech"></div>
+                <p ng-hide="card.tech">{{card.bio}}</p>
               </div>
               <div class="row" ng-hide="card.tech">
                 <a ng-href="{{card.github}}" target="_blank"><img src="img/github_480.png"></a>

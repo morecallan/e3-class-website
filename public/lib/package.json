@@ -12,6 +12,7 @@
     "angular": "^1.5.8",
     "angular-animate": "^1.5.8",
     "angular-route": "^1.5.8",
+    "angular-sanitize": "^1.5.8",
     "gulp": "^3.9.1",
     "gulp-jshint": "^2.0.1",
     "gulp-sass": "^2.3.2",
