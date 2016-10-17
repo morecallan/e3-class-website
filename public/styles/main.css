@@ -2,7 +2,7 @@
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
   height: 92vh;
-  padding-top: 3%; }
+  padding-top: 2%; }
 
 .searchbox {
   margin: 0; }
@@ -35,9 +35,12 @@
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin-top: -20px; }
+  margin-top: -20px;
+  overflow: auto;
+  min-height: 78vh;
+  max-height: 78vh; }
   #class-faces .card {
-    margin: 1% 2.5%;
+    margin: .7% 2.5%;
     width: 15%;
     padding: 0 !important;
     background: none;

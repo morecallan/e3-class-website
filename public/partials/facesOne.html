@@ -1,59 +1,59 @@
-<!-- main div that hold people search, image and name of sudent
-Played with the codepen on flexbox-->
-<div ng-include="'partials/nav.html'"></div>
+  <!-- main div that hold people search, image and name of sudent
+  Played with the codepen on flexbox-->
+  <div ng-include="'partials/nav.html'"></div>
 
-<div id="class-page" class="row">
-  <div class="col m9">
-    <!-- People search box-->
-      <div class="row">
-        <div class="col m10 offset-m1">
-          <form class="searchbox">
-            <input id="search-box-input" type="text" name="peoplesearch" placeholder="Find Your Person">
-          </form>
+  <div id="class-page" class="row">
+    <div class="col m9">
+      <!-- People search box-->
+        <div class="row">
+          <div class="col m10 offset-m1">
+            <form class="searchbox">
+              <input id="search-box-input" type="text" name="peoplesearch" placeholder="Find Your Person">
+            </form>
+          </div>
         </div>
-      </div>
-      <!-- card for student, ng-repet using flexbox i.e
-      display: inline-block;
-      background: white;
-      overflow: hidden;
-      margin: 3px;
-      padding: 5px;-->
-      <div class="row">
-        <div id="class-faces"> <!-- //ng-repeat through students -->
-          <div class="card" ng-repeat="student in students" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
-            <!-- student photo-->
-            <div class="card-image">
-              <img ng-src="{{student.image}}"> <!-- //student image -->
-            </div>
-            <!--student name-->
-            <div class="card-content">
-              <p>{{student.firstName}}</p> <!-- //student first name -->
-            </div>
+        <!-- card for student, ng-repet using flexbox i.e
+        display: inline-block;
+        background: white;
+        overflow: hidden;
+        margin: 3px;
+        padding: 5px;-->
+        <div class="row">
+          <div id="class-faces"> <!-- //ng-repeat through students -->
+            <div class="card" ng-repeat="student in students" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
+              <!-- student photo-->
+              <div class="card-image">
+                <img ng-src="{{student.image}}"> <!-- //student image -->
+              </div>
+              <!--student name-->
+              <div class="card-content">
+                <p>{{student.firstName}}</p> <!-- //student first name -->
+              </div>
 
+            </div>
+          </div>
+        </div>
+    </div>
+
+      <!-- Class Card that shows smaller group photo and text on right-->
+      <div id="class-card" class="col m3">
+        <div class="row">
+          <div class="content">
+            <div class="card  class-group-image">
+              <div class="card-image">
+                <img ng-src="{{card.image}}">
+              </div>
+              <p class="fullName">{{card.fullName}}</p>
+              <div class="card-content">
+                <p>{{card.bio}}</p>
+              </div>
+              <div class="row" ng-hide="card.tech">
+                <a ng-href="{{card.github}}" target="_blank"><img src="img/github_480.png"></a>
+                <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
+                <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
   </div>
-
-    <!-- Class Card that shows smaller group photo and text on right-->
-    <div id="class-card" class="col m3">
-      <div class="row">
-        <div class="content">
-          <div class="card  class-group-image">
-            <div class="card-image">
-              <img ng-src="{{card.image}}">
-            </div>
-            <p class="fullName">{{card.fullName}}</p>
-            <div class="card-content">
-              <p>{{card.bio}}</p>
-            </div>
-            <div class="row" ng-hide="card.tech">
-              <a ng-href="{{card.github}}" target="_blank"><img src="img/github_480.png"></a>
-              <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
-              <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
