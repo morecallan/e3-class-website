@@ -79,6 +79,12 @@ nav {
     font-size: 50px !important;
     color: #123441; }
 
+#splash-page {
+  background: url("../img/Background.png") center center no-repeat;
+  background-size: cover;
+  height: 88vh;
+  padding-bottom: 3%; }
+
 body {
   max-height: 100vh !important;
   overflow: hidden; }
