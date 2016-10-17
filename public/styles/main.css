@@ -12,8 +12,8 @@
 
 #class-card .content {
   margin: 10px;
-  padding: 50px 10px;
-  height: 75vh;
+  padding: 20px 10px;
+  height: 82vh;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.4) !important; }
   #class-card .content .card {
@@ -22,7 +22,6 @@
   #class-card .content img {
     border-radius: 5px; }
   #class-card .content .card-content {
-    margin-top: 50px;
     padding: 15px;
     border-radius: 2px;
     background-color: #012340;
@@ -30,6 +29,25 @@
     color: #F2F0D0;
     font-family: 'Source Code Pro', monospace;
     font-size: 12px; }
+
+.full-name {
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: #024059;
+  text-align: center;
+  text-transform: uppercase; }
+
+#card-tech {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  margin-top: 3%; }
+  #card-tech a {
+    margin: 3%; }
+  #card-tech img {
+    height: 80%;
+    max-height: 70px; }
 
 #class-faces {
   display: flex;

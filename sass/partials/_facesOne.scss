@@ -20,8 +20,8 @@
 #class-card {
   .content {
     margin: 10px;
-    padding: 50px 10px;
-    height: 75vh;
+    padding: 20px 10px;
+    height:82vh;
     border-radius: 5px;
     background-color: rgba(white, 0.4) !important;
 
@@ -35,7 +35,6 @@
     }
 
     .card-content {
-      margin-top: 50px;
       padding: 15px;
       border-radius: 2px;
       background-color: $blue-dark;
@@ -44,6 +43,31 @@
       font-family: 'Source Code Pro', monospace;
       font-size: 12px;
     }
+  }
+}
+
+.full-name {
+  padding: 0;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: $blue-mid;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#card-tech {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  margin-top: 3%;
+
+  a {
+    margin: 3%;
+  }
+
+  img {
+    height: 80%;
+    max-height: 70px;
   }
 }
 

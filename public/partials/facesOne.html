@@ -43,12 +43,12 @@
               <div class="card-image">
                 <img ng-src="{{card.image}}">
               </div>
-              <p class="fullName">{{card.fullName}}</p>
+              <p class="full-name">{{card.fullName}}</p>
               <div class="card-content">
                 <div ng-bind-html="card.bio" ng-hide="!card.tech"></div>
                 <p ng-hide="card.tech">{{card.bio}}</p>
               </div>
-              <div class="row" ng-hide="card.tech">
+              <div id="card-tech" class="row" ng-hide="card.tech">
                 <a ng-href="{{card.github}}" target="_blank"><img src="img/github_480.png"></a>
                 <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
                 <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
