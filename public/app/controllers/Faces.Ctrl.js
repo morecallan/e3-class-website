@@ -1,4 +1,6 @@
-app.controller("FacesCtrl", function($scope, JSONFactory){
+app.controller("FacesCtrl", function($scope, JSONFactory, deviceDetector){
+
+  
 
 // Creating empty array to store all students
   $scope.students = [];

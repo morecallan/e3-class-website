@@ -1,10 +1,17 @@
 "use strict";
 
-var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate"])
+var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate", "ng.deviceDetector"])
+
+app.config(["ng.deviceDetector", function($routeProvider, deviceDetector) {
+    var deviceInfo = this;
+    deviceInfo.data = deviceDetector;
+    deviceInfo.allData = JSON.stringify(deviceInfo, null, 2);
+     console.log("desktop", deviceInfo.data.isDesktop());
+    console.log("mobile", deviceInfo.data.isMobile());
+     console.log("tablet", deviceInfo.data.isTablet());
 
 
 
-app.config(function($routeProvider) {
     $routeProvider
         .when("/splash", {
             templateUrl: "partials/splash.html",
@@ -15,4 +22,11 @@ app.config(function($routeProvider) {
             controller:  "FacesCtrl"
         })
         .otherwise("/people");
-});
+
+    // var deviceInfo = this;
+    // deviceInfo.data = deviceDetector;
+    // deviceInfo.allData = JSON.stringify(deviceInfo, null, 2);
+    //  console.log("desktop", deviceInfo.data.isDesktop());
+    // console.log("mobile", deviceInfo.data.isMobile());
+    //  console.log("tablet", deviceInfo.data.isTablet());
+}]);
