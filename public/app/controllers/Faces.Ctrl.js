@@ -3,9 +3,9 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
 // Creating empty array to store all students
   $scope.students = [];
   $scope.card = {
-    image: "image/turdface.png",
-    bio: "const EveningCohort3={ <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb' <br/> &nbsp;conqueredValleyOfDespair: true <br/>}",
-    fullName: "",
+    image: "img/class-headshots/group_photo_placeholder.png",
+    bio: "<p>const EveningCohort3 = { <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
+    fullName: "Nashville Software Schoool Evening Cohort 3",
     tech: true
   };
 
@@ -19,12 +19,12 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
     if (student.firstName === $scope.card.firstName) {
       $(`#${$scope.card.firstName}`).removeClass("shiny")
       animateCard();
-      $scope.card = {
-        image: "image/turdface.png",
-        bio: "const EveningCohort3={ <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/>}",
-        fullName: "",
-        tech: true
-      } 
+        $scope.card = {
+          image: "img/class-headshots/group_photo_placeholder.png",
+          bio: "<p>const EveningCohort3 = { <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
+          fullName: "Nashville Software Schoool Evening Cohort 3",
+          tech: true
+        };
     } else {
       $(`#${$scope.card.firstName}`).removeClass("shiny")
       animateCard();
