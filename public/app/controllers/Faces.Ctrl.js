@@ -16,6 +16,19 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
   });
 
   $scope.showStudentDetails = function(student){
-    $scope.card = student;
+    if (student.firstName === $scope.card.firstName) {
+      $(`#${$scope.card.firstName}`).removeClass("shiny")
+      $scope.card = {
+        image: "image/turdface.png",
+        bio: "const EveningCohort3={ <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/>}",
+        fullName: "",
+        tech: true
+      } 
+    } else {
+      $(`#${$scope.card.firstName}`).removeClass("shiny")
+      $scope.card = student;
+      $scope.card.tech = false;
+      $(`#${$scope.card.firstName}`).addClass("shiny")
+    };
   };
 });
