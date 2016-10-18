@@ -5,11 +5,46 @@
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
   height: 92vh;
-  padding-top: 2%;
+  padding-top: 3%;
 }
 
 .searchbox {
   margin: 0;
+  padding: 0;
+  font-weight: lighter !important;
+  color: $ycream !important;
+  letter-spacing: 10px !important;
+
+  #search-box-input::-webkit-input-placeholder{
+    text-align: center;
+    font-weight: lighter !important;
+    color: $ycream !important;
+    letter-spacing: 2px !important;
+    opacity: 0.6;
+  }
+
+  #search-box-input:-ms-input-placeholder{
+    text-align: center;
+    font-weight: lighter !important;
+    color: $ycream !important;
+    letter-spacing: 2px !important;
+    opacity: 0.6;
+  }
+
+  #search-box-input::-moz-placeholder{
+    text-align: center;
+    font-weight: lighter !important;
+    color: $ycream !important;
+    letter-spacing: 2px !important;
+    opacity: 0.6;
+  }
+
+
+  #search-box-input input[type=text]{
+    font-weight: lighter !important;
+    color: $ycream !important;
+    letter-spacing: 10px !important;
+  }
 
   #search-box-input:focus {
     border-bottom: $blue-light !important;
@@ -95,8 +130,8 @@
 
     img {
       background: white;
-      max-width: 100px !important;
-      max-height: 100px !important;
+      max-width: 90px !important;
+      max-height: 90px !important;
       margin: auto;
       border-radius: 100%;
     }
