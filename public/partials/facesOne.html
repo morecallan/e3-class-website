@@ -19,7 +19,7 @@ Played with the codepen on flexbox-->
       padding: 5px;-->
       <div class="row">
         <div id="class-faces"> <!-- //ng-repeat through students -->
-          <div class="card" ng-repeat="student in students" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
+          <div class="card" id="{{student.firstName}}" ng-repeat="student in students" ng-click="showStudentDetails(student)"><!-- // ng-click grabs single student's details -->
             <!-- student photo-->
             <div class="card-image">
               <img ng-src="{{student.image}}"> <!-- //student image -->
@@ -28,7 +28,6 @@ Played with the codepen on flexbox-->
             <div class="card-content">
               <p>{{student.firstName}}</p> <!-- //student first name -->
             </div>
-
           </div>
         </div>
       </div>
