@@ -18,7 +18,8 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
 
   CommitsFactory.getCommitNumber()
   .then(function(commits){
-    $scope.collectiveCommits = commits.commits
+    $scope.collectiveCommits = commits.commits.toString().split('');
+    console.log($scope.collectiveCommits)
   })
 
   $scope.showStudentDetails = function(student){
