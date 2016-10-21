@@ -70,7 +70,8 @@
   text-align: center;
   display: flex;
   width: 100%;
-  margin-top: 3%; }
+  margin-top: 3%;
+  overflow: hidden; }
   #card-tech a {
     margin: 3%; }
   #card-tech img {
