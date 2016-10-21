@@ -1,4 +1,4 @@
-app.controller("FacesCtrl", function($scope, JSONFactory){
+app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
 
 // Creating empty array to store all students
   $scope.students = [];
@@ -15,6 +15,11 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
   .then (function(allStudents){
     $scope.students = allStudents;
   });
+
+  CommitsFactory.getCommitNumber()
+  .then(function(commits){
+    $scope.collectiveCommits = commits.commits
+  })
 
   $scope.showStudentDetails = function(student){
     if (student.firstName === $scope.card.firstName) {

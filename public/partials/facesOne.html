@@ -52,6 +52,9 @@
                 <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
                 <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
               </div>
+              <p class="full-name" ng-hide="!card.tech">
+                {{collectiveCommits}} collective commits and counting!
+              </p>
             </div>
           </div>
         </div>
