@@ -1,0 +1,200 @@
+{ "technologies": {
+
+    "tech1": {
+      "name": "JavaScript",
+      "section": "front",
+      "image": ""
+    },
+    "tech2": {
+      "name": "ES6",
+      "section": "front",
+      "image": ""
+    },
+    "tech3": {
+      "name": "jQuery",
+      "section": "front",
+      "image": ""
+    },
+    "tech4": {
+      "name": "CSS",
+      "section": "front",
+      "image": ""
+    },
+    "tech5": {
+      "name": "Sass",
+      "section": "front",
+      "image": ""
+    },
+    "tech6": {
+      "name": "HTML5",
+      "section": "front",
+      "image": ""
+    },
+    "tech7": {
+      "name": "Angular",
+      "section": "front",
+      "image": ""
+    },
+    "tech8": {
+      "name": "Bootstrap",
+      "section": "front",
+      "image": ""
+    },
+    "tech9": {
+      "name": "Materialize",
+      "section": "front",
+      "image": ""
+    },
+    "tech10": {
+      "name": "Razor",
+      "section": "front",
+      "image": ""
+    },
+    "tech11": {
+      "name": "Markdown",
+      "section": "front",
+      "image": ""
+    },
+    "tech12": {
+      "name": "JSLint",
+      "section": "front",
+      "image": ""
+    },
+    "tech13": {
+      "name": "C#",
+      "section": "server",
+      "image": ""
+    },
+    "tech14": {
+      "name": "Entity",
+      "section": "server",
+      "image": ""
+    },
+    "tech15": {
+      "name": "Moq",
+      "section": "server",
+      "image": ""
+    },
+    "tech16": {
+      "name": "ASP.NET",
+      "section": "server",
+      "image": ""
+    },
+    "tech17": {
+      "name": ".NET Core",
+      "section": "server",
+      "image": ""
+    },
+    "tech18": {
+      "name": "LINQ",
+      "section": "server",
+      "image": ""
+    },
+    "tech19": {
+      "name": "Azure",
+      "section": "server",
+      "image": ""
+    },
+    "tech20": {
+      "name": "SQLite",
+      "section": "server",
+      "image": ""
+    },
+    "tech21": {
+      "name": "SQLServer",
+      "section": "server",
+      "image": ""
+    },
+    "tech22": {
+      "name": "Firebase",
+      "section": "server",
+      "image": ""
+    },
+    "tech24": {
+      "name": "Git",
+      "section": "tools",
+      "image": ""
+    },
+    "tech25": {
+      "name": "Github",
+      "section": "tools",
+      "image": ""
+    },
+    "tech26": {
+      "name": "Sublime",
+      "section": "tools",
+      "image": ""
+    },
+    "tech27": {
+      "name": "Atom",
+      "section": "tools",
+      "image": ""
+    },
+    "tech28": {
+      "name": "Vim",
+      "section": "tools",
+      "image": ""
+    },
+    "tech29": {
+      "name": "Visual Studio Code",
+      "section": "tools",
+      "image": ""
+    },
+    "tech30": {
+      "name": "Visual Studio 2015",
+      "section": "tools",
+      "image": ""
+    },
+    "tech31": {
+      "name": "npm",
+      "section": "tools",
+      "image": ""
+    },
+    "tech32": {
+      "name": "Bower",
+      "section": "tools",
+      "image": ""
+    },
+    "tech33": {
+      "name": "JSON",
+      "section": "tools",
+      "image": ""
+    },
+    "tech34": {
+      "name": "REST",
+      "section": "tools",
+      "image": ""
+    },
+    "tech35": {
+      "name": "Gulp",
+      "section": "tools",
+      "image": ""
+    },
+    "tech36": {
+      "name": "AWS",
+      "section": "tools",
+      "image": ""
+    },
+    "tech37": {
+      "name": "Slack",
+      "section": "tools",
+      "image": ""
+    },
+    "tech38": {
+      "name": "Trello",
+      "section": "tools",
+      "image": ""
+    },
+    "tech39": {
+      "name": "Moqups",
+      "section": "tools",
+      "image": ""
+    },
+    "tech40": {
+      "name": "Draw.io",
+      "section": "tools",
+      "image": ""
+    }
+  }
+}
+
