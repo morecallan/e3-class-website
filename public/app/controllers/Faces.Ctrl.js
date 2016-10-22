@@ -42,10 +42,21 @@ app.controller("FacesCtrl", function($scope, JSONFactory, $location){
     });
   };
 
-  $scope.mouseWheel = function(view)
+  $scope.mouseWheel = function($event, $delta, $deltaY)
   {
-    console.log("downView");
-    $location.path(view);
+    console.log("delta", $delta);
+    console.log("deltaY", $deltaY);
+
+    if ($delta == -1 && $deltaY == -1)
+    {
+      console.log("down");
+      $location.path('technologies');
+    }
+    else if ($delta == 1 && $deltaY == 1)
+    {
+      console.log("up");
+      $location.path('splash')
+    }
   }
 
  

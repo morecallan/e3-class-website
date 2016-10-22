@@ -16,6 +16,7 @@ app.config(function($routeProvider) {
         })
         .when("/technologies", {
             templateUrl: "partials/technologies.html",
+            controller: "TechnologiesCtrl"
         })
         .otherwise("/splash");
 });
