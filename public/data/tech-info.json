@@ -3,202 +3,207 @@
     "tech1": {
       "name": "JavaScript",
       "section": "front",
-      "image": ""
+      "image": "img/tech/javascript.png"
     },
     "tech2": {
       "name": "ES6",
       "section": "front",
-      "image": ""
+      "image": "img/tech/es6.png"
     },
     "tech3": {
       "name": "jQuery",
       "section": "front",
-      "image": ""
+      "image": "img/tech/jquery.png"
     },
     "tech4": {
       "name": "CSS",
       "section": "front",
-      "image": ""
+      "image": "img/tech/css.png"
     },
     "tech5": {
       "name": "Sass",
       "section": "front",
-      "image": ""
+      "image": "img/tech/sass.png"
     },
     "tech6": {
       "name": "HTML5",
       "section": "front",
-      "image": ""
+      "image": "img/tech/HTML.png"
     },
     "tech7": {
       "name": "Angular",
       "section": "front",
-      "image": ""
+      "image": "img/tech/angular.png"
     },
     "tech8": {
       "name": "Bootstrap",
       "section": "front",
-      "image": ""
+      "image": "img/tech/bootstrap.png"
     },
     "tech9": {
       "name": "Materialize",
       "section": "front",
-      "image": ""
+      "image": "img/tech/materialize.png"
     },
     "tech10": {
       "name": "Razor",
       "section": "front",
-      "image": ""
+      "image": "img/tech/razor.png"
     },
     "tech11": {
       "name": "Markdown",
       "section": "front",
-      "image": ""
+      "image": "img/tech/markdown.png"
     },
     "tech12": {
-      "name": "JSLint",
+      "name": "JSHint",
       "section": "front",
-      "image": ""
+      "image": "img/tech/jshint.png"
     },
     "tech13": {
       "name": "C#",
       "section": "server",
-      "image": ""
+      "image": "img/tech/csharp.png"
     },
     "tech14": {
       "name": "Entity",
       "section": "server",
-      "image": ""
+      "image": "img/tech/entity.png"
     },
     "tech15": {
       "name": "Moq",
       "section": "server",
-      "image": ""
+      "image": "img/tech/moq.png"
     },
     "tech16": {
       "name": "ASP.NET",
       "section": "server",
-      "image": ""
+      "image": "img/tech/aspdotnet.png"
+    },
+    "tech165": {
+      "name": ".NET",
+      "section": "server",
+      "image": "img/tech/dotnet.png"
     },
     "tech17": {
       "name": ".NET Core",
       "section": "server",
-      "image": ""
+      "image": "img/tech/dot-net-core.png"
     },
     "tech18": {
       "name": "LINQ",
       "section": "server",
-      "image": ""
+      "image": "img/tech/linq.png"
     },
     "tech19": {
       "name": "Azure",
       "section": "server",
-      "image": ""
+      "image": "img/tech/azure.png"
     },
     "tech20": {
       "name": "SQLite",
       "section": "server",
-      "image": ""
+      "image": "img/tech/SQLite.png"
     },
     "tech21": {
       "name": "SQLServer",
       "section": "server",
-      "image": ""
+      "image": "img/tech/SQLServer.png"
     },
     "tech22": {
       "name": "Firebase",
       "section": "server",
-      "image": ""
+      "image": "img/tech/firebase.png"
     },
     "tech24": {
       "name": "Git",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/git.png"
     },
     "tech25": {
       "name": "Github",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/github.png"
     },
     "tech26": {
       "name": "Sublime",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/sublime.png"
     },
     "tech27": {
       "name": "Atom",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/atom.png"
     },
     "tech28": {
       "name": "Vim",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/vim.png"
     },
     "tech29": {
       "name": "Visual Studio Code",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/vscode.png"
     },
     "tech30": {
       "name": "Visual Studio 2015",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/vs2015.png"
     },
     "tech31": {
       "name": "npm",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/npm.png"
     },
     "tech32": {
       "name": "Bower",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/bower.png"
     },
     "tech33": {
       "name": "JSON",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/json.png"
     },
     "tech34": {
       "name": "REST",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/rest.png"
     },
     "tech35": {
       "name": "Gulp",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/gulp.png"
     },
     "tech36": {
       "name": "AWS",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/aws.png"
     },
     "tech37": {
       "name": "Slack",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/slack.png"
     },
     "tech38": {
       "name": "Trello",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/trello.png"
     },
     "tech39": {
       "name": "Moqups",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/moqups.png"
     },
     "tech40": {
       "name": "Draw.io",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/drawio.png"
     },
     "tech41": {
       "name": "StackOverflow",
       "section": "tools",
-      "image": ""
+      "image": "img/tech/stackoverflow.png"
     }
   }
 }
