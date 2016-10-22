@@ -1,4 +1,4 @@
-app.controller("FacesCtrl", function($scope, JSONFactory){
+app.controller("FacesCtrl", function($scope, JSONFactory, $location){
 
 // Creating empty array to store all students
   $scope.students = [];
@@ -42,4 +42,11 @@ app.controller("FacesCtrl", function($scope, JSONFactory){
     });
   };
 
+  $scope.mouseWheel = function(view)
+  {
+    console.log("downView");
+    $location.path(view);
+  }
+
+ 
 });
