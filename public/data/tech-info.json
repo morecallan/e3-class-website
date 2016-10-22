@@ -194,6 +194,11 @@
       "name": "Draw.io",
       "section": "tools",
       "image": ""
+    },
+    "tech41": {
+      "name": "StackOverflow",
+      "section": "tools",
+      "image": ""
     }
   }
 }
