@@ -46,11 +46,15 @@ app.controller("FacesCtrl", function($scope, JSONFactory, $location){
   {
     if ($delta == -1 && $deltaY == -1)
     {
+      console.log("delta", $delta);
+      console.log("delta", $deltaY);
       $location.path('technologies');
     }
     else if ($delta == 1 && $deltaY == 1)
     {
-      $location.path('splash')
+      console.log("delta", $delta);
+      console.log("delta", $deltaY);
+      $location.path('splash');
     }
   }
 

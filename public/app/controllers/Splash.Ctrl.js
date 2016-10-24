@@ -20,11 +20,15 @@ app.controller("SplashCtrl", function($scope, $location) {
 
     if ($delta == -1 && $deltaY == -1)
     {
+      console.log("delta", $delta);
+      console.log("delta", $deltaY);
       $location.path('people');
     }
     else if ($delta == 1 && $deltaY == 1)
     {
-      $location.path('technologies')
+     console.log("delta", $delta);
+      console.log("delta", $deltaY);
+      $location.path('technologies');
     }
   }
 
