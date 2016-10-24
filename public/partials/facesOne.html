@@ -52,6 +52,21 @@
                 <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
                 <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
               </div>
+              <div class="row commit-row" ng-hide="!card.tech">
+                <div class="col m4">
+                  <img class="github-commits" src="img/github_480.png"/>
+                </div>
+                <div class="col m8">
+                  <div class="odometer">
+                    <div class="digit" ng-repeat="digit in collectiveCommits track by $index">
+                      <div class="digit-container">{{digit}}</div>
+                    </div>
+                  </div>
+                  <p>
+                    collective commits & counting!
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
