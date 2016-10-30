@@ -50,21 +50,32 @@ app.controller("FacesCtrl", function($scope, $location, JSONFactory, CommitsFact
     });
   };
 
+
+  $scope.counter = 0;
+
   $scope.mouseWheel = function($event, $delta, $deltaY)
   {
+    
+
     if ($delta == -1 && $deltaY == -1)
     {
-      console.log("delta", $delta);
-      console.log("delta", $deltaY);
-      $location.path('technologies');
+      $scope.counter--
     }
     else if ($delta == 1 && $deltaY == 1)
     {
-      console.log("delta", $delta);
-      console.log("delta", $deltaY);
+      $scope.counter++
+    }
+
+    if($scope.counter == 3){
+
       $location.path('splash');
     }
-  }
+    else if($scope.counter == -3)
+    {
 
+      $location.path('technologies');
+
+    }
+}
  
 });

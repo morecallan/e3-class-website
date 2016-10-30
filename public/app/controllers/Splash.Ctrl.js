@@ -1,35 +1,24 @@
 app.controller("SplashCtrl", function($scope, $location) {
 
- 
+  $scope.counter = 0;
+
+    
   $scope.mouseWheel = function($event, $delta, $deltaY)
   {
-    // $scope.scrollValue = 0;
-
-    // if ($delta == -1 && $deltaY == -1)
-    // {
-    //   var scrollValue = $scope.scrollValue;
-    //   scrollValue -= scrollValue
-    //   console.log("scrollValue", scrollValue);
-    // }
-    // else if ($delta == 1 && $deltaY == 1)
-    // {
-    //   var scrollValue = $scope.scrollValue;
-    //   scrollValue++
-    //   console.log("scrollValue", scrollValue);
-    // }
+    
 
     if ($delta == -1 && $deltaY == -1)
     {
-      console.log("delta", $delta);
-      console.log("delta", $deltaY);
-      $location.path('people');
+      $scope.counter--
     }
-    else if ($delta == 1 && $deltaY == 1)
+    
+    if($scope.counter == -3)
     {
-     console.log("delta", $delta);
-      console.log("delta", $deltaY);
-      $location.path('technologies');
+
+      $location.path('people');
+
     }
+    
   }
 
 });

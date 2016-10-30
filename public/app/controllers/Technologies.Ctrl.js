@@ -1,20 +1,22 @@
 app.controller("TechnologiesCtrl", function($scope, $location){
 
-$scope.mouseWheel = function($event, $delta, $deltaY)
+$scope.counter = 0;
+
+    
+  $scope.mouseWheel = function($event, $delta, $deltaY)
   {
-    if ($delta == -1 && $deltaY == -1)
+    
+     if ($delta == 1 && $deltaY == 1)
     {
-      console.log("delta", $delta);
-      console.log("delta", $deltaY);
-      $location.path('splash');
+      $scope.counter++
     }
-    else if ($delta == 1 && $deltaY == 1)
-    {
-      console.log("delta", $delta);
-      console.log("delta", $deltaY);
+
+    if($scope.counter == 3){
+
       $location.path('people');
     }
-  }
+    
+}
 
 
 })
