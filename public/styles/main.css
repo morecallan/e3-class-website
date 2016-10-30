@@ -5,15 +5,41 @@
   padding-top: 3%; }
 
 .searchbox {
-  margin: 0; }
+  margin: 0;
+  padding: 0;
+  font-weight: lighter !important;
+  color: #F2F0D0 !important;
+  letter-spacing: 10px !important; }
+  .searchbox #search-box-input::-webkit-input-placeholder {
+    text-align: center;
+    font-weight: lighter !important;
+    color: #F2F0D0 !important;
+    letter-spacing: 2px !important;
+    opacity: 0.6; }
+  .searchbox #search-box-input:-ms-input-placeholder {
+    text-align: center;
+    font-weight: lighter !important;
+    color: #F2F0D0 !important;
+    letter-spacing: 2px !important;
+    opacity: 0.6; }
+  .searchbox #search-box-input::-moz-placeholder {
+    text-align: center;
+    font-weight: lighter !important;
+    color: #F2F0D0 !important;
+    letter-spacing: 2px !important;
+    opacity: 0.6; }
+  .searchbox #search-box-input input[type=text] {
+    font-weight: lighter !important;
+    color: #F2F0D0 !important;
+    letter-spacing: 10px !important; }
   .searchbox #search-box-input:focus {
     border-bottom: #2198A6 !important;
     box-shadow: 0 1px 0 0 #2198A6 !important; }
 
 #class-card .content {
   margin: 10px;
-  padding: 50px 10px;
-  height: 75vh;
+  padding: 20px 10px;
+  height: 82vh;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.4) !important; }
   #class-card .content .card {
@@ -22,7 +48,6 @@
   #class-card .content img {
     border-radius: 5px; }
   #class-card .content .card-content {
-    margin-top: 50px;
     padding: 15px;
     border-radius: 2px;
     background-color: #012340;
@@ -31,13 +56,39 @@
     font-family: 'Source Code Pro', monospace;
     font-size: 12px; }
 
+.full-name {
+  padding: 0;
+  margin: 5% 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #024059;
+  text-align: center;
+  text-transform: uppercase; }
+
+#card-tech {
+  text-align: center;
+  display: flex;
+  width: 100%;
+  margin-top: 3%;
+  overflow: hidden; }
+  #card-tech a {
+    margin: 3%; }
+  #card-tech img {
+    filter: invert(1) sepia(1) hue-rotate(5deg) brightness(0.85) drop-shadow(2px 2px 2px rgba(1, 35, 64, 0.5));
+    height: 80%;
+    max-height: 70px; }
+
 #class-faces {
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin-top: -20px; }
+  margin-top: -20px;
+  overflow: auto;
+  min-height: 78vh;
+  max-height: 78vh; }
   #class-faces .card {
-    margin: 1% 2.5%;
+    margin: .7% 2.5%;
     width: 15%;
     padding: 0 !important;
     background: none;
@@ -45,8 +96,8 @@
     -webkit-filter: drop-shadow(2px 2px 1px rgba(1, 35, 64, 0.4)); }
     #class-faces .card img {
       background: white;
-      max-width: 100px !important;
-      max-height: 100px !important;
+      max-width: 90px !important;
+      max-height: 90px !important;
       margin: auto;
       border-radius: 100%; }
     #class-faces .card .card-content {
@@ -78,6 +129,12 @@ nav {
     padding: 10% !important;
     font-size: 50px !important;
     color: #123441; }
+
+#splash-page {
+  background: url("../img/Background.png") center center no-repeat;
+  background-size: cover;
+  height: 88vh;
+  padding-bottom: 3%; }
 
 body {
   max-height: 100vh !important;

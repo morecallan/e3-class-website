@@ -10,11 +10,12 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></link>
+    <!-- Animate.CSS: for card flips -->
+    <link rel="stylesheet" type="text/css" href="/lib/bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="/styles/main.css" media="screen">
   </head>
   <body ng-app="ClassWebsite">
 
-    <div ng-include="'partials/nav.html'"></div>
     <div ng-view></div>
 
 
@@ -27,6 +28,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.6/angular.js"></script>
     <!-- Angular Route: Latest compiled and minified JavaScript -->
     <script src="lib/bower_components/angular-route/angular-route.min.js"></script>
+    <!-- Angular Sanitize: Latest compiled and minified JavaScript -->
+    <script src="lib/node_modules/angular-sanitize/angular-sanitize.min.js"></script>
     <!-- Angular Animations -->
     <script src="lib/node_modules/angular-animate/angular-animate.min.js"></script>
     <!-- Materialize: Latest compiled and minified JavaScript -->
@@ -44,5 +47,7 @@
 
     <!-- CONTROLLERS LAST -->
     <script src="app/controllers/Faces.Ctrl.js"></script>
+    <script src="app/controllers/Splash.Ctrl.js"></script>
+
   </body>
 </html>
