@@ -2,7 +2,7 @@
 
 var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate", "ngSanitize", "ng.deviceDetector"]);
 
-app.config(function($routeProvider, deviceDetector) {
+app.config(function($routeProvider) {
 
     $routeProvider
         .when("/splash", {
@@ -16,12 +16,12 @@ app.config(function($routeProvider, deviceDetector) {
         .when("/technologies", {
             templateUrl: "partials/technologies.html",
         })
+        .when("/mobile", {
+            templateUrl: "partials/mobile.html",
+            controller: "MobileCtrl"
+        })
         .otherwise("/splash");
 });
-
-var deviceInfo = this;
-deviceInfo.data = deviceDetector;
-deviceInfo.allData = JSON.stringify(deviceInfo, null, 2);
- console.log("desktop", deviceInfo.data.isDesktop());
-console.log("mobile", deviceInfo.data.isMobile());
- console.log("tablet", deviceInfo.data.isTablet());
+app.run(($location) => {
+    $location.path('/splash');
+});

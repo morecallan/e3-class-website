@@ -1,4 +1,4 @@
-app.controller("FacesCtrl", function($scope, JSONFactory, deviceDetector){
+app.controller("FacesCtrl", function($scope, JSONFactory){
 
   
 
