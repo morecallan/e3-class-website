@@ -17,7 +17,7 @@ app.config(function($routeProvider) {
             templateUrl: "partials/technologies.html",
         })
         .when("/mobile", {
-            templateUrl: "partials/mobile.html",
+            templateUrl: "partials/mobileCards.html",
             controller: "MobileCtrl"
         })
         .otherwise("/splash");
