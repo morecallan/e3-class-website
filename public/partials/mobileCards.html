@@ -10,7 +10,7 @@
 <div id="mobile-card-container" ng-repeat="student in students | filter: searchTerm">
   
 <!-- SINGLE CARD -->
-  <div id="mobile-single-card" ng-click="show()">
+  <div id="mobile-{{student.firstName}}" ng-click="show({{student.firstName}}, 'mobile-{{student.firstName}}')">
     
 <!-- CARD ELEMENTS THAT ARE SHOWN ON PAGE LOAD -->
     <div id="mobile-shown-elements">
@@ -18,7 +18,7 @@
       <h2>{{student.firstName}}</h2>
     </div>  
 <!-- CARD ELEMENTS THAT ARE SHOWN ON CLICK  >>REMOVE NG-HIDE>> -->
-    <div id="mobile-hidden-elements" ng-hide = "true">
+    <div id="mobile-hidden-elements" ng-hide = "{{student.firstName}}">
       <div id="mobile-person-desc">
         <p>{{student.bio}}</p>
       </div>
