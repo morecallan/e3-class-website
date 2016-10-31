@@ -12,4 +12,10 @@
 
 .hidden {
   visibility: hidden;
+  height: 0px;
+}
+
+.mb-splash-image {
+  height: 100vh;
+  width: 100vw;
 }
