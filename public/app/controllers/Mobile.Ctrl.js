@@ -1,4 +1,4 @@
-app.controller("MobileCtrl", function($scope, JSONFactory){
+app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
   // Creating empty array to store all students
   $scope.students = [];
   $scope.lastPerson = "";
@@ -11,20 +11,17 @@ app.controller("MobileCtrl", function($scope, JSONFactory){
     $('#mobile-hide-' + $scope.lastPerson).addClass('hidden');
     if ($scope.lastPerson !== that.student.firstName) {
       $scope.lastPerson = that.student.firstName;
-      let mainId = '#mobile-' + that.student.firstName;
+      let mainId = 'mobile-' + that.student.firstName;
       let hideId = '#mobile-hide-' + that.student.firstName;
+      $anchorScroll(mainId);
       if ($(hideId).hasClass('hidden')) {
-        $(document).scrollTop("200");
-        console.log(window.scrollY);
+        //window.scrollTo(0, 500);
         $(hideId).removeClass('hidden');
       } 
     } else {
       $scope.lastPerson = "";
     }
   }
-
-  $scope
-
 });
 
 $("#mobile-search-bar")
