@@ -1,24 +1,29 @@
 app.controller("MobileCtrl", function($scope, JSONFactory){
   // Creating empty array to store all students
   $scope.students = [];
-  $scope.fuck = true;
+  $scope.lastPerson = "";
   JSONFactory.getAllStudents()
   .then (function(allStudents){
     $scope.students = allStudents;
   });
 
   $scope.show = (that) => {
-    console.log("hi", that);
-    let mainId = '#mobile-' + that.student.firstName;
-    let hideId = '#mobile-hide-' + that.student.firstName;
-    if ($(hideId).hasClass('hidden')) {
-      $(document).scrollTop(200);
-      $(hideId).removeClass('hidden');
+    $('#mobile-hide-' + $scope.lastPerson).addClass('hidden');
+    if ($scope.lastPerson !== that.student.firstName) {
+      $scope.lastPerson = that.student.firstName;
+      let mainId = '#mobile-' + that.student.firstName;
+      let hideId = '#mobile-hide-' + that.student.firstName;
+      if ($(hideId).hasClass('hidden')) {
+        $(document).scrollTop("200");
+        console.log(window.scrollY);
+        $(hideId).removeClass('hidden');
+      } 
     } else {
-      $(hideId).addClass('hidden');
+      $scope.lastPerson = "";
     }
-    
   }
+
+  $scope
 
 });
 
