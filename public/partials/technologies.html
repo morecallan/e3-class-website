@@ -1,0 +1,16 @@
+<div>
+  <div ng-repeat="tool in technologies.tools">
+    <img src="{{tool.image}}" data-position="bottom" data-delay="50" data-tooltip="{{tool.name}}"  class="tooltipped">
+  </div>
+  <div>
+    <!-- MIDDLE PICTURE -->
+  </div>
+  <div>
+    <div ng-repeat="front in technologies.front">
+      <img src="{{front.image}}" data-position="top" data-delay="50" data-tooltip="{{front.name}}"  class="tooltipped">
+    </div>
+    <div ng-repeat="server in technologies.server">
+      <img src="{{server.image}}" data-position="top" data-delay="50" data-tooltip="{{server.name}}" class="tooltipped">
+    </div>
+  </div>
+</div>

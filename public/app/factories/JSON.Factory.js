@@ -1,5 +1,5 @@
 app.factory('JSONFactory', function($http, $q){
-  getAllStudents = function() {
+  getAllStudents = () => {
     return $q(function(resolve) {
       $http({
         method: 'GET',
@@ -18,6 +18,26 @@ app.factory('JSONFactory', function($http, $q){
         resolve(shuffledStudents);
       });
     });
-  }
-  return {getAllStudents:getAllStudents};
+  };
+  getTechnologies = () => {
+    return $q(function(resolve) {
+      $http({
+        method: 'GET',
+        url: '/data/tech-info.json'
+      }).success(function(data) {
+        let techs = {}
+        for (let i in data) {
+          if (data[i].section === 'front') {
+            techs.front = data[i];
+          } else if (data[i].section === 'server') {
+            techs.server = data[i];
+          } else if (data[i].section === 'tools') {
+            techs.tools = data[i];
+          };
+        };
+        resolve(techs);
+      });
+    });
+  };
+  return {getAllStudents:getAllStudents, getTechnologies:getTechnologies};
 });
