@@ -15,6 +15,7 @@ app.config(function($routeProvider) {
         })
         .when("/technologies", {
             templateUrl: "partials/technologies.html",
+            controller: "TechnologiesCtrl"
         })
         .when("/mobile", {
             templateUrl: "partials/mobileCards.html",

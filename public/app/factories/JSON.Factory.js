@@ -25,14 +25,19 @@ app.factory('JSONFactory', function($http, $q){
         method: 'GET',
         url: '/data/tech-info.json'
       }).success(function(data) {
-        let techs = {}
-        for (let i in data) {
-          if (data[i].section === 'front') {
-            techs.front = data[i];
-          } else if (data[i].section === 'server') {
-            techs.server = data[i];
-          } else if (data[i].section === 'tools') {
-            techs.tools = data[i];
+        let techs = {
+          front: [],
+          server: [],
+          tools: []
+        }
+        let tData = data.technologies;
+        for (let i in tData) {
+          if (tData[i].section === 'front') {
+            techs.front.push(tData[i]);
+          } else if (tData[i].section === 'server') {
+            techs.server.push(tData[i]);
+          } else if (tData[i].section === 'tools') {
+            techs.tools.push(tData[i]);
           };
         };
         resolve(techs);

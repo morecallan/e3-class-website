@@ -1,6 +1,8 @@
 <div>
   <div ng-repeat="tool in technologies.tools">
-    <img src="{{tool.image}}" data-position="bottom" data-delay="50" data-tooltip="{{tool.name}}"  class="tooltipped">
+    <div data-position="bottom" data-delay="50" data-tooltip="{{tool.name}}"  class="tooltipped">
+      <img src="{{tool.image}}">
+      </div>
   </div>
   <div>
     <!-- MIDDLE PICTURE -->
