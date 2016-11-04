@@ -1,3 +1,6 @@
+#shiny {
+  box-shadow: 0px 0px 50px white; }
+
 #class-page {
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
