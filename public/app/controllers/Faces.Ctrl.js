@@ -25,7 +25,8 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
   $scope.showStudentDetails = function(student, event){
     if (student.firstName === $scope.card.firstName) {
       //$(`#${$scope.card.firstName}`).removeClass("shiny")
-      $(event.target).attr("id", "none");
+      //$(event.target).removeAttr("id");
+      removeHalo();
       animateCard();
         $scope.card = {
           image: "img/class-headshots/group_photo_placeholder.png",
@@ -35,6 +36,8 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
         };
     } else {
       //$(`#${$scope.card.firstName}`).removeClass("shiny")
+      //$(event.target).removeAttr("id");
+      removeHalo();
       $(event.target).attr("id", "shiny");
       animateCard();
       $scope.card = student;
@@ -48,5 +51,11 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
       $("#class-card").removeClass("animated flip");
     });
   };
+
+  function removeHalo(){
+    if ($("#shiny")){
+      $("#shiny").removeAttr("id");
+    }
+  }
 
 });
