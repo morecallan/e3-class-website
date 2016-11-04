@@ -1,10 +1,9 @@
 "use strict";
 
-var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate", "ngSanitize"])
-
-
+var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate", "ngSanitize", "ng.deviceDetector"]);
 
 app.config(function($routeProvider) {
+
     $routeProvider
         .when("/splash", {
             templateUrl: "partials/splash.html",
@@ -17,5 +16,12 @@ app.config(function($routeProvider) {
         .when("/technologies", {
             templateUrl: "partials/technologies.html",
         })
+        .when("/mobile", {
+            templateUrl: "partials/mobileCards.html",
+            controller: "MobileCtrl"
+        })
         .otherwise("/splash");
+});
+app.run(($location) => {
+    $location.path('/splash');
 });

@@ -1,0 +1,21 @@
+.mobile-scroll {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 1px;
+    width: 100%;
+    z-index: 11;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+.hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
+.mb-splash-image {
+  height: 100vh;
+  width: 100vw;
+}

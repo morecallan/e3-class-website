@@ -1,5 +1,7 @@
 app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
 
+  
+
 // Creating empty array to store all students
   $scope.students = [];
 
