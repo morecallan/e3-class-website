@@ -38,7 +38,7 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
       //$(`#${$scope.card.firstName}`).removeClass("shiny")
       //$(event.target).removeAttr("id");
       removeHalo();
-      $(event.target).attr("id", "shiny");
+      applyHalo(event);
       animateCard();
       $scope.card = student;
       $scope.card.tech = false;
@@ -55,7 +55,15 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
   function removeHalo(){
     if ($("#shiny")){
       $("#shiny").removeAttr("id");
+    };
+  };
+
+  function applyHalo(event){
+    console.log(event.target);
+    console.log($(event.target).prop("nodeName"));
+    if ($(event.target).prop("nodeName") === "IMG"){
+      $(event.target).attr("id", "shiny");
     }
-  }
+  };
 
 });
