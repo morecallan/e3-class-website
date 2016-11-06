@@ -5,7 +5,7 @@
   <div id="technologies-tools">
     <div ng-repeat="tool in technologies.tools">
       <div data-position="bottom" data-delay="50" data-tooltip="{{tool.name}}"  class="tooltipped">
-        <img src="{{tool.image}}">
+        <img ng-src="{{tool.image}}">
       </div>
     </div>
   </div>
@@ -18,12 +18,12 @@
 <div id="technologies-container">
     <div id="technologies-front">
       <div ng-repeat="front in technologies.front">
-        <img src="{{front.image}}" data-position="top" data-delay="50" data-tooltip="{{front.name}}"  class="tooltipped">
+        <img ng-src="{{front.image}}" data-position="top" data-delay="50" data-tooltip="{{front.name}}"  class="tooltipped">
       </div>
     </div>
     <div id="technologies-server">
       <div ng-repeat="server in technologies.server">
-        <img src="{{server.image}}" data-position="top" data-delay="50" data-tooltip="{{server.name}}" class="tooltipped">
+        <img ng-src="{{server.image}}" data-position="top" data-delay="50" data-tooltip="{{server.name}}" class="tooltipped">
       </div>
     </div>
   </div>
