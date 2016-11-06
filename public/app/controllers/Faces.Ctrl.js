@@ -1,4 +1,6 @@
-app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
+
+app.controller("FacesCtrl", function($scope, $location, JSONFactory, CommitsFactory){
+
 
   
 
@@ -50,4 +52,32 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
     });
   };
 
+
+  $scope.counter = 0;
+
+  $scope.mouseWheel = function($event, $delta, $deltaY)
+  {
+    
+
+    if ($delta == -1 && $deltaY == -1)
+    {
+      $scope.counter--
+    }
+    else if ($delta == 1 && $deltaY == 1)
+    {
+      $scope.counter++
+    }
+
+    if($scope.counter == 3){
+
+      $location.path('splash');
+    }
+    else if($scope.counter == -3)
+    {
+
+      $location.path('technologies');
+
+    }
+}
+ 
 });
