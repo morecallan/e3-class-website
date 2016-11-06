@@ -11,6 +11,7 @@
   "dependencies": {
     "angular": "^1.5.8",
     "angular-animate": "^1.5.8",
+    "angular-mousewheel": "^1.0.5",
     "angular-route": "^1.5.8",
     "angular-sanitize": "^1.5.8",
     "animate": "^1.0.0",
