@@ -2,7 +2,7 @@
   Played with the codepen on flexbox-->
   <div ng-include="'partials/nav.html'"></div>
 
-  <div id="class-page" class="row">
+  <div id="class-page" class="row" msd-wheel="mouseWheel($event, $delta, $deltaY)">
     <div class="col m9">
       <!-- People search box-->
         <div class="row">
@@ -50,7 +50,7 @@
               <div id="card-tech" class="row" ng-hide="card.tech">
                 <a ng-href="{{card.github}}" target="_blank"><img src="img/github_480.png"></a>
                 <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
-                <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
+                <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/portfolio2.png"></a>
               </div>
               <div class="row commit-row" ng-hide="!card.tech">
                 <div class="col m4">

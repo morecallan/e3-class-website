@@ -1,6 +1,7 @@
 "use strict";
 
-var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate", "ngSanitize", "ng.deviceDetector"]);
+
+var app = angular.module("ClassWebsite", ["ngRoute", "ngAnimate", "ngSanitize", "monospaced.mousewheel", "ng.deviceDetector"])
 
 app.config(function($routeProvider) {
 
@@ -15,6 +16,7 @@ app.config(function($routeProvider) {
         })
         .when("/technologies", {
             templateUrl: "partials/technologies.html",
+            controller: "TechnologiesCtrl"
         })
         .when("/mobile", {
             templateUrl: "partials/mobileCards.html",

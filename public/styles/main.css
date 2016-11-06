@@ -168,11 +168,11 @@ nav {
     letter-spacing: 8px;
     margin: -10px 0 0;
     padding: 0; }
-  nav i {
+  nav .icons {
     -webkit-filter: drop-shadow(2px 2px 1px rgba(33, 152, 166, 0.6));
     padding: 10% !important;
-    font-size: 50px !important;
-    color: #123441; }
+    height: 75px !important;
+    width: 75px !important; }
 
 #splash-page {
   background: url("../img/Background.png") center center no-repeat;

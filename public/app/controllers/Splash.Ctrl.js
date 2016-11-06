@@ -1,4 +1,26 @@
-app.controller("SplashCtrl", function($scope, deviceDetector, $location){
+
+app.controller("SplashCtrl", function($scope, $location,deviceDetector) {
+
+  $scope.counter = 0;
+
+    
+  $scope.mouseWheel = function($event, $delta, $deltaY)
+  {
+    
+
+    if ($delta == -1 && $deltaY == -1)
+    {
+      $scope.counter--
+    }
+    
+    if($scope.counter == -3)
+    {
+
+      $location.path('people');
+
+    }
+    
+  }
 
   var deviceInfo = this;
   deviceInfo.data = deviceDetector;
@@ -6,4 +28,4 @@ app.controller("SplashCtrl", function($scope, deviceDetector, $location){
   if(deviceInfo.data.isMobile() && !deviceInfo.data.isTablet()) {
     $location.url('/mobile')
   }
-});
+})
