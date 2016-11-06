@@ -18,5 +18,7 @@
     "angular-route": "^1.5.8",
     "animate.css": "^3.5.2",
     "angular-sanitize": "^1.5.8"
+    "ng-device-detector": "^3.0.1",
+    "animate.css": "^3.5.2"
   }
 }
