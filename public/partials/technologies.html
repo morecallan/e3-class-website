@@ -2,28 +2,43 @@
 
 
 <div id="technologies-partial">
-  <div id="technologies-tools">
-    <div ng-repeat="tool in technologies.tools">
-      <div data-position="bottom" data-delay="50" data-tooltip="{{tool.name}}"  class="tooltipped">
-        <img ng-src="{{tool.image}}">
+  <div id="technologies-tools" class="row">
+    <div class=" col s1 m1 l1">
+      <h5 class="side-label">Tools</h5>
+    </div>
+    <div class="flex-container col s11 m11 l11">
+      <div ng-repeat="tool in technologies.tools">
+        <div data-position="bottom" data-delay="50" data-tooltip="{{tool.name}}"  class="tooltipped">
+          <img ng-src="{{tool.image}}">
+        </div>
       </div>
     </div>
   </div>
 
 
-  <div id="technologies-tools">
-    <!-- MIDDLE PICTURE -->
+  <div id="technologies-brace">
+    <img class="full-size-image" ng-src="./img/brace.png">
   </div>
 
 <div id="technologies-container">
-    <div id="technologies-front">
-      <div ng-repeat="front in technologies.front">
-        <img ng-src="{{front.image}}" data-position="top" data-delay="50" data-tooltip="{{front.name}}"  class="tooltipped">
+    <div id="technologies-front" class="row">
+      <div class=" col s1 m1 l1">
+        <h5 class="side-label">Client</h5>
+      </div>
+      <div class="flex-container col s11 m11 l11">
+        <div ng-repeat="front in technologies.front">
+          <img ng-src="{{front.image}}" data-position="top" data-delay="50" data-tooltip="{{front.name}}"  class="tooltipped">
+        </div>
       </div>
     </div>
-    <div id="technologies-server">
-      <div ng-repeat="server in technologies.server">
-        <img ng-src="{{server.image}}" data-position="top" data-delay="50" data-tooltip="{{server.name}}" class="tooltipped">
+    <div id="technologies-server" class="row">
+      <div class=" col s1 m1 l1">
+        <h5 class="side-label">Server</h5>
+      </div>
+      <div class="flex-container col s11 m11 l11">
+        <div ng-repeat="server in technologies.server">
+          <img ng-src="{{server.image}}" data-position="top" data-delay="50" data-tooltip="{{server.name}}" class="tooltipped">
+        </div>
       </div>
     </div>
   </div>

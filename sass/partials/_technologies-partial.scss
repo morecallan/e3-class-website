@@ -1,0 +1,107 @@
+@import "../globals/colors";
+
+#technologies-partial {
+  background-color: $buildings;
+  background-size: cover;
+  height: 100vh;
+  position: absolute;
+
+  img {
+    width: 90%;
+    max-width: 90px;
+    padding: 10%;
+    background-color: rgba($blue-light, 0.3);
+    border-radius: 4px;
+  }
+
+  .side-label {
+    padding: 10px;
+    margin: 0;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: $blue-light;
+    text-align: left;
+    letter-spacing: 6px !important;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+  }
+
+  #technologies-brace{
+    width: 60%;
+    margin: 0 20%;
+    padding: 0;
+
+    .full-size-image {
+      background-color: transparent !important;
+      max-height: 40px;
+      min-width: 100%;
+      object-fit: fill;
+      padding: 0;
+      margin: 0;
+      -webkit-filter: invert(1) sepia(1);
+      filter: invert(1) sepia(1);
+    }
+  }
+
+  #technologies-container {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  #technologies-tools {
+    margin: 2%;
+    margin-top: 5vh;
+    background-color: $ycream;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 4px;
+
+    .side-label {
+      bottom: -90px;
+    }
+  }
+
+
+  #technologies-front {
+    width: 46%;
+    margin: 2%;
+    background-color: $ycream;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 4px;
+
+    .side-label {
+      bottom: -180px;
+      margin: 20px;
+    }
+
+  }
+
+  #technologies-server {
+    width: 46%;
+    margin: 2%;
+    background-color: $ycream;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 4px;
+
+    .side-label {
+      bottom: -180px;
+      margin: 20px;
+
+    }
+
+  }
+}

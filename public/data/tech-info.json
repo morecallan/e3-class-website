@@ -13,7 +13,7 @@
     "tech3": {
       "name": "jQuery",
       "section": "front",
-      "image": "img/tech/jquery.png"
+      "image": "img/tech/jquery.jpg"
     },
     "tech4": {
       "name": "CSS",
@@ -43,7 +43,7 @@
     "tech9": {
       "name": "Materialize",
       "section": "front",
-      "image": "img/tech/materialize.png"
+      "image": "img/tech/materalize.png"
     },
     "tech10": {
       "name": "Razor",
@@ -207,4 +207,3 @@
     }
   }
 }
-
