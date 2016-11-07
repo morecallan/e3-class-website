@@ -200,9 +200,9 @@ nav {
   width: 100vw; }
 
 #technologies-partial {
-  background-color: #123441;
+  background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 92vh;
   position: absolute; }
   #technologies-partial img {
     width: 90%;
