@@ -1,4 +1,19 @@
+"use strict";
 app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
+
+  // init controller
+  var controller = new ScrollMagic.Controller();
+
+  // create a scene
+  var scene = new ScrollMagic.Scene({
+    offset: 0,
+    reverse: true,
+    duration: window.outerHeight*2,
+    triggerHook: "onEnter"
+  })
+  .setClassToggle('#mobile-search-bar', 'hidden')
+  controller.addScene(scene);
+  console.log(window.outerHeight/2);
   // Creating empty array to store all students
   $scope.students = [];
   $scope.lastPerson = "";
@@ -21,7 +36,5 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
     } else {
       $scope.lastPerson = "";
     }
-  }
+  };
 });
-
-$("#mobile-search-bar")

@@ -20,7 +20,7 @@
         padding: 5px;-->
         <div class="row">
           <div id="class-faces"> <!-- //ng-repeat through students -->
-            <div class="card" ng-repeat="student in students | filter: searchTerm" ng-click="showStudentDetails(student)" ><!-- // ng-click grabs single student's details -->
+            <div class="card" ng-repeat="student in students | filter: searchTerm" ng-click="showStudentDetails(student, $event)" ><!-- // ng-click grabs single student's details -->
               <!-- student photo-->
               <div class="card-image">
                 <img ng-src="{{student.image}}"> <!-- //student image -->
@@ -50,7 +50,7 @@
               <div id="card-tech" class="row" ng-hide="card.tech">
                 <a ng-href="{{card.github}}" target="_blank"><img src="img/github_480.png"></a>
                 <a ng-href="{{card.linkedin}}" target="_blank"><img src="img/linkedin.png"></a>
-                <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/contact_720.png"></a>
+                <a ng-href="{{card.portfolio}}" target="_blank"><img src="img/portfolio2.png"></a>
               </div>
               <div class="row commit-row" ng-hide="!card.tech">
                 <div class="col m4">

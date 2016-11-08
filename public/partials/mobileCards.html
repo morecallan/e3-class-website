@@ -1,36 +1,37 @@
-<div class="mobile-scroll">
-<!-- STICKY SEARCH BAR -->
-<input type="text" id="mobile-search-bar" ng-model="searchTerm" placeholder="Enter a Name/Term">
+<link rel="stylesheet" type="text/css" href="/styles/mobile.css">
+<div class="mobile-scroll" id="mobile-page">
+  <!-- STICKY SEARCH BAR -->
+  <input type="text" id="mobile-search-bar" class="hidden" ng-model="searchTerm" placeholder="Enter a Name/Term">
+  <!-- SPLASH IMAGE -->
+  <img src="img/monkeybutt.png"   class="mb-splash-image" id="mobile-splash-image">
 
-<!-- SPLASH IMAGE -->
-<img src="img/monkeybutt.png"   class="mb-splash-image" id="mobile-splash-image">
-
-<!-- CARD CONTAINER -->
-<div id="mobile-card-container" ng-repeat="student in students | filter: searchTerm">
-  
-<!-- SINGLE CARD -->
-  <div id="mobile-{{student.firstName}}" ng-click="show(this)">
+  <!-- CARD CONTAINER -->
+  <div id="mobile-card-container" ng-repeat="student in students | filter: searchTerm">
     
-<!-- CARD ELEMENTS THAT ARE SHOWN ON PAGE LOAD -->
-    <div id="mobile-shown-elements">
-      <img src="{{student.image}}" ng-class-even="'mb-even'" ng-class-odd="'mb-odd'">
-      <h2>{{student.firstName}}</h2>
-    </div>  
-<!-- CARD ELEMENTS THAT ARE SHOWN ON CLICK  >>REMOVE NG-HIDE>> -->
-    <div id="mobile-hide-{{student.firstName}}" class="hidden">
-      <div id="mobile-person-desc">
-        <p>{{student.bio}}</p>
+    <!-- SINGLE CARD -->
+    <div id="mobile-{{student.firstName}}" class="md-card-color">
+      <!-- NG-CLICK DIV -->
+      <div ng-click="show(this)">  
+      <!-- CARD ELEMENTS THAT ARE SHOWN ON PAGE LOAD -->
+        <div id="mobile-shown-elements" ng-class-even="'mb-text-even'" ng-class-odd="'mb-text-odd'">
+          <img src="{{student.image}}" ng-class-even="'mb-even'" ng-class-odd="'mb-odd'">
+          <h2>{{student.firstName}}</h2>
+        </div>  
       </div>
-      <div id="mobile-person-sites">
-        <a target="_blank" ng-href="{{person.github}}"><img src="img/github_480.png"></a>
-        <a target="_blank" ng-href="{{person.linkedin}}"><img src="img/linkedin.png"></a>
-        <a target="_blank" ng-href="{{person.portfolio}}"><img src="img/contact_720.png"></a>
-      </div>
-    </div> 
-
-
+      <!-- CARD ELEMENTS THAT ARE SHOWN ON CLICK  >>REMOVE NG-HIDE>> -->
+      <div id="mobile-hide-{{student.firstName}}" class="hidden">
+      <!-- NG-CLICK DIV -->
+        <div ng-click="show(this)">  
+          <div id="mobile-person-desc">
+            <p>{{student.bio}}</p>
+          </div>
+        </div>
+        <div id="mobile-person-sites">
+          <a target="_blank" href="{{student.github}}"><img src="img/github_480.png" class="mb-btn"></a>
+          <a target="_blank" href="{{student.linkedin}}"><img src="img/linkedin.png" class="mb-btn"></a>
+          <a target="_blank" href="{{student.portfolio}}"><img src="img/contact_720.png" class="mb-btn"></a>
+        </div>
+      </div> 
+    </div>
   </div>
-
-
-</div>
 </div>
