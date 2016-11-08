@@ -3,3 +3,4 @@
 .DS_Store
 public/lib/node_modules
 public/lib/bower_components
+public/styles
