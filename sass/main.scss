@@ -3,9 +3,11 @@
 @import "partials/splash.scss";
 @import "partials/mobile.scss";
 @import "partials/technologies-partial.scss";
+@@import "components/colors.scss"
 
 
 body {
   max-height: 100vh !important;
   overflow: hidden;
+  background-color: $buildings;
 }

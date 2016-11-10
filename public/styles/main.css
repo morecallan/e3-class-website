@@ -371,4 +371,5 @@ body {
 
 body {
   max-height: 100vh !important;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #123441; }
