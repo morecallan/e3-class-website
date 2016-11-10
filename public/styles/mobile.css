@@ -256,11 +256,9 @@ body {
   font-size: 30px;
   color: #012340;
   text-align: center; }
-
-::-webkit-input-placeholder {
-  font-size: 40px;
-  color: #012340; }
-
-::-moz-placeholder {
-  font-size: 40px;
-  color: #012340; }
+  #mobile-search-bar ::-webkit-input-placeholder {
+    font-size: 40px;
+    color: #012340; }
+  #mobile-search-bar ::-moz-placeholder {
+    font-size: 40px;
+    color: #012340; }

@@ -24,7 +24,7 @@ body {
 
 #mobile-shown-elements {
   height: 200px;
-} 
+}
 
 #mobile-shown-elements > img {
   height: 200px;
@@ -70,7 +70,7 @@ body {
 
 .md-card-color {
   background-color: $ycream;
-} 
+}
 
 #mobile-person-sites {
   display: flex;
@@ -92,14 +92,14 @@ body {
   font-size: 30px;
   color: $blue-dark;
   text-align: center;
-}
 
-::-webkit-input-placeholder {
-  font-size: 40px;
-  color: $blue-dark;
-}
+  ::-webkit-input-placeholder {
+    font-size: 40px;
+    color: $blue-dark;
+  }
 
-::-moz-placeholder {
-  font-size: 40px;
-  color: $blue-dark;
+  ::-moz-placeholder {
+    font-size: 40px;
+    color: $blue-dark;
+  }
 }
