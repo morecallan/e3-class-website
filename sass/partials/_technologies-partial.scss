@@ -14,10 +14,40 @@
     border-radius: 4px;
   }
 
+  .tools-text {
+    overflow: visible !important;
+    padding: 0;
+    margin: 0;
+
+    img {
+      background-color: transparent !important;
+      max-height: 180px;
+      min-height: 120px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .client-server-text {
+    padding: 0;
+    margin: 0;
+    overflow: visible !important;
+
+    img {
+      padding: 10%;
+      margin: 10%;
+      background-color: transparent !important;
+      max-height: 300px;
+      min-height: 200px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
   .side-label {
     padding: 10px;
     margin: 0;
-    position: relative;
+    position: sticky;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 30px;
@@ -29,6 +59,17 @@
     -ms-transform: rotate(-90deg);
     -o-transform: rotate(-90deg);
   }
+
+  .top-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: $blue-light;
+    text-align: center;
+    letter-spacing: 6px !important;
+  }
+
+
 
   #technologies-brace{
     width: 60%;
@@ -48,6 +89,7 @@
   }
 
   #technologies-container {
+    overflow: hidden;
     display: flex;
     flex-flow: row wrap;
   }
@@ -69,7 +111,7 @@
     border-radius: 4px;
 
     .side-label {
-      bottom: -90px;
+      bottom: -20%;
     }
   }
 
@@ -83,7 +125,7 @@
     border-radius: 4px;
 
     .side-label {
-      bottom: -180px;
+      top: 200%;
       margin: 20px;
     }
 
@@ -98,9 +140,8 @@
     border-radius: 4px;
 
     .side-label {
-      bottom: -180px;
+      top: 100px;
       margin: 20px;
-
     }
 
   }
