@@ -93,11 +93,11 @@
     color: #024059;
     display: inline-block;
     height: 25px;
-    width: 25px;
+    width: 20px;
     overflow: hidden;
     border-right: 1px solid rgba(0, 0, 0, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 0 5px; }
+    padding: 0 3px; }
     .commit-row .digit:first-child {
       border-left: none; }
     .commit-row .digit:last-child {
