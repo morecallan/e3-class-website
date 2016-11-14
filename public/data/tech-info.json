@@ -3,207 +3,207 @@
     "tech1": {
       "name": "JavaScript",
       "section": "front",
-      "image": "img/tech/javascript.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/javascript.png?raw=true"
     },
     "tech2": {
       "name": "ES6",
       "section": "front",
-      "image": "img/tech/es6.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/es6.png?raw=true"
     },
     "tech3": {
       "name": "jQuery",
       "section": "front",
-      "image": "img/tech/jquery.jpg"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/jquery.jpg?raw=true"
     },
     "tech4": {
       "name": "CSS",
       "section": "front",
-      "image": "img/tech/css.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/css.png?raw=true"
     },
     "tech5": {
       "name": "Sass",
       "section": "front",
-      "image": "img/tech/sass.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/sass.png?raw=true"
     },
     "tech6": {
       "name": "HTML5",
       "section": "front",
-      "image": "img/tech/HTML.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/HTML.png?raw=true"
     },
     "tech7": {
       "name": "Angular",
       "section": "front",
-      "image": "img/tech/angular.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/Angular.png?raw=true"
     },
     "tech8": {
       "name": "Bootstrap",
       "section": "front",
-      "image": "img/tech/bootstrap.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/bootstrap.png?raw=true"
     },
     "tech9": {
       "name": "Materialize",
       "section": "front",
-      "image": "img/tech/materalize.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/materalize.png?raw=true"
     },
     "tech10": {
       "name": "Razor",
       "section": "front",
-      "image": "img/tech/razor.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/razor.png?raw=true"
     },
     "tech11": {
       "name": "Markdown",
       "section": "front",
-      "image": "img/tech/markdown.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/markdown.png?raw=true"
     },
     "tech12": {
       "name": "JSHint",
       "section": "front",
-      "image": "img/tech/jshint.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/jshint.png?raw=true"
     },
     "tech13": {
       "name": "C#",
       "section": "server",
-      "image": "img/tech/csharp.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/csharp.png?raw=true"
     },
     "tech14": {
       "name": "Entity",
       "section": "server",
-      "image": "img/tech/entity.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/entity.png?raw=true"
     },
     "tech15": {
       "name": "Moq",
       "section": "server",
-      "image": "img/tech/moq.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/moq.png?raw=true"
     },
     "tech16": {
       "name": "ASP.NET",
       "section": "server",
-      "image": "img/tech/aspdotnet.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/aspdotnet.png?raw=true"
     },
     "tech165": {
       "name": ".NET",
       "section": "server",
-      "image": "img/tech/dotnet.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/dotnet.png?raw=true"
     },
     "tech17": {
       "name": ".NET Core",
       "section": "server",
-      "image": "img/tech/dot-net-core.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/dot-net-core.png?raw=true"
     },
     "tech18": {
       "name": "LINQ",
       "section": "server",
-      "image": "img/tech/linq.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/linq.png?raw=true"
     },
     "tech19": {
       "name": "Azure",
       "section": "server",
-      "image": "img/tech/azure.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/azure.png?raw=true"
     },
     "tech20": {
       "name": "SQLite",
       "section": "server",
-      "image": "img/tech/SQLite.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/SQLite.png?raw=true"
     },
     "tech21": {
       "name": "SQLServer",
       "section": "server",
-      "image": "img/tech/SQLServer.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/SQLserver.png?raw=true"
     },
     "tech22": {
       "name": "Firebase",
       "section": "server",
-      "image": "img/tech/firebase.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/firebase.png?raw=true"
     },
     "tech24": {
       "name": "Git",
       "section": "tools",
-      "image": "img/tech/git.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/git.png?raw=true"
     },
     "tech25": {
       "name": "Github",
       "section": "tools",
-      "image": "img/tech/github.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/github.png?raw=true"
     },
     "tech26": {
       "name": "Sublime",
       "section": "tools",
-      "image": "img/tech/sublime.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/Sublime.png?raw=true"
     },
     "tech27": {
       "name": "Atom",
       "section": "tools",
-      "image": "img/tech/atom.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/atom.png?raw=true"
     },
     "tech28": {
       "name": "Vim",
       "section": "tools",
-      "image": "img/tech/vim.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/vim.png?raw=true"
     },
     "tech29": {
       "name": "Visual Studio Code",
       "section": "tools",
-      "image": "img/tech/vscode.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/vscode.png?raw=true"
     },
     "tech30": {
       "name": "Visual Studio 2015",
       "section": "tools",
-      "image": "img/tech/vs2015.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/vs2015.png?raw=true"
     },
     "tech31": {
       "name": "npm",
       "section": "tools",
-      "image": "img/tech/npm.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/npm.png?raw=true"
     },
     "tech32": {
       "name": "Bower",
       "section": "tools",
-      "image": "img/tech/bower.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/bower.png?raw=true"
     },
     "tech33": {
       "name": "JSON",
       "section": "tools",
-      "image": "img/tech/json.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/json.png?raw=true"
     },
     "tech34": {
       "name": "REST",
       "section": "tools",
-      "image": "img/tech/rest.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/rest.png?raw=true"
     },
     "tech35": {
       "name": "Gulp",
       "section": "tools",
-      "image": "img/tech/gulp.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/gulp.png?raw=true"
     },
     "tech36": {
       "name": "AWS",
       "section": "tools",
-      "image": "img/tech/aws.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/aws.png?raw=true"
     },
     "tech37": {
       "name": "Slack",
       "section": "tools",
-      "image": "img/tech/slack.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/slack.png?raw=true"
     },
     "tech38": {
       "name": "Trello",
       "section": "tools",
-      "image": "img/tech/trello.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/trello.png?raw=true"
     },
     "tech39": {
       "name": "Moqups",
       "section": "tools",
-      "image": "img/tech/moqups.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/moqups.png?raw=true"
     },
     "tech40": {
       "name": "Draw.io",
       "section": "tools",
-      "image": "img/tech/drawio.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/drawio.png?raw=true"
     },
     "tech41": {
       "name": "StackOverflow",
       "section": "tools",
-      "image": "img/tech/stackoverflow.png"
+      "image": "https://github.com/morecallan/e3-class-website/blob/master/public/img/tech/Stackoverflow.png?raw=true"
     }
   }
 }
