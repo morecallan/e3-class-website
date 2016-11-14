@@ -267,7 +267,7 @@ body {
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
   height: 92vh;
-  position: absolute; }
+  padding-top: 3%; }
   #technologies-partial img {
     width: 90%;
     max-width: 90px;
@@ -341,7 +341,6 @@ body {
     justify-content: center; }
   #technologies-partial #technologies-tools {
     margin: 2%;
-    margin-top: 5vh;
     background-color: #F2F0D0;
     padding: 10px;
     padding-left: 0;
