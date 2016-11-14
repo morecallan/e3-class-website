@@ -1,10 +1,15 @@
 @import "partials/facesOne.scss";
 @import "partials/nav.scss";
 @import "partials/splash.scss";
-
+@import "partials/mobile.scss";
+@import "partials/technologies-partial.scss";
+@import "globals/colors.scss";
 
 
 body {
   max-height: 100vh !important;
   overflow: hidden;
+  background-color: $buildings;
 }
+
+#shiny { box-shadow: 0px 0px 50px white; }

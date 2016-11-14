@@ -1,0 +1,48 @@
+<div ng-include="'partials/nav.html'"></div>
+
+
+<div id="technologies-partial">
+  <div id="technologies-tools" class="row">
+    <h5 class="top-label hide-on-med-and-up">Tools</h5>
+    <div class="col m1 l1 hide-on-small-only tools-text">
+      <img src="./img/Tools.png" />
+    </div>
+    <div class="flex-container col s12 m11 l11">
+      <div ng-repeat="tool in technologies.tools">
+        <div data-position="bottom" data-delay="50" data-tooltip="{{tool.name}}"  class="tooltipped">
+          <img ng-src="{{tool.image}}">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="technologies-brace">
+    <img class="full-size-image" ng-src="./img/brace.png">
+  </div>
+
+<div id="technologies-container">
+    <div id="technologies-front" class="row">
+      <h5 class="top-label hide-on-med-and-up">Client</h5>
+      <div class="col m1 l1 hide-on-small-only client-server-text">
+        <img src="./img/Client.png" />
+      </div>
+      <div class="flex-container col s12 m11 l11">
+        <div ng-repeat="front in technologies.front">
+          <img ng-src="{{front.image}}" data-position="top" data-delay="50" data-tooltip="{{front.name}}"  class="tooltipped">
+        </div>
+      </div>
+    </div>
+    <div id="technologies-server" class="row">
+      <h5 class="top-label hide-on-med-and-up">Server</h5>
+      <div class="col m1 l1 hide-on-small-only client-server-text">
+        <img src="./img/Server.png" />
+      </div>
+      <div class="flex-container col s12 m11 l11">
+        <div ng-repeat="server in technologies.server">
+          <img ng-src="{{server.image}}" data-position="top" data-delay="50" data-tooltip="{{server.name}}" class="tooltipped">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
