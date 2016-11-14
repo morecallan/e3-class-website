@@ -4,6 +4,9 @@
   height: 92vh;
   padding-top: 3%; }
 
+#shiny {
+  box-shadow: 0px 0px 50px white; }
+
 .searchbox {
   margin: 0;
   padding: 0;
