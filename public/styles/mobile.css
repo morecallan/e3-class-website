@@ -4,6 +4,9 @@
   height: 92vh;
   padding-top: 3%; }
 
+#shiny {
+  box-shadow: 0px 0px 50px white; }
+
 .searchbox {
   margin: 0;
   padding: 0;
@@ -90,11 +93,11 @@
     color: #024059;
     display: inline-block;
     height: 25px;
-    width: 25px;
+    width: 20px;
     overflow: hidden;
     border-right: 1px solid rgba(0, 0, 0, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 0 5px; }
+    padding: 0 3px; }
     .commit-row .digit:first-child {
       border-left: none; }
     .commit-row .digit:last-child {
@@ -168,11 +171,11 @@ nav {
     letter-spacing: 8px;
     margin: -10px 0 0;
     padding: 0; }
-  nav i {
+  nav .icons {
     -webkit-filter: drop-shadow(2px 2px 1px rgba(33, 152, 166, 0.6));
     padding: 10% !important;
-    font-size: 50px !important;
-    color: #123441; }
+    height: 75px !important;
+    width: 75px !important; }
 
 #splash-page {
   background: url("../img/Background.png") center center no-repeat;
@@ -256,11 +259,9 @@ body {
   font-size: 30px;
   color: #012340;
   text-align: center; }
-
-::-webkit-input-placeholder {
-  font-size: 40px;
-  color: #012340; }
-
-::-moz-placeholder {
-  font-size: 40px;
-  color: #012340; }
+  #mobile-search-bar ::-webkit-input-placeholder {
+    font-size: 40px;
+    color: #012340; }
+  #mobile-search-bar ::-moz-placeholder {
+    font-size: 40px;
+    color: #012340; }

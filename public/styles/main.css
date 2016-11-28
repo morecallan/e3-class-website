@@ -1,11 +1,11 @@
-#shiny {
-  box-shadow: 0px 0px 50px white; }
-
 #class-page {
   background: url("../img/Background.png") center center no-repeat;
   background-size: cover;
   height: 92vh;
   padding-top: 3%; }
+
+#shiny {
+  box-shadow: 0px 0px 50px white; }
 
 .searchbox {
   margin: 0;
@@ -93,11 +93,11 @@
     color: #024059;
     display: inline-block;
     height: 25px;
-    width: 25px;
+    width: 20px;
     overflow: hidden;
     border-right: 1px solid rgba(0, 0, 0, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.05);
-    padding: 0 5px; }
+    padding: 0 3px; }
     .commit-row .digit:first-child {
       border-left: none; }
     .commit-row .digit:last-child {
@@ -184,5 +184,196 @@ nav {
   padding-bottom: 3%; }
 
 body {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  bottom: 1px !important;
+  width: 100% !important;
+  z-index: 11 !important;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+  -webkit-overflow-scrolling: touch !important; }
+
+.hidden {
+  visibility: hidden;
+  height: 0px; }
+
+.mb-splash-image {
+  height: 100vh;
+  width: 100vw; }
+
+#mobile-shown-elements {
+  height: 200px; }
+
+#mobile-shown-elements > img {
+  height: 200px;
+  border-radius: 100%; }
+
+#mobile-shown-elements > h2 {
+  margin: 28px 0;
+  color: #F2F0D0;
+  font-size: 125px;
+  text-transform: uppercase; }
+
+.mb-btn {
+  height: 100px;
+  margin: 0; }
+
+.mb-even {
+  float: left; }
+
+.mb-odd {
+  float: right; }
+
+.mb-text-even {
+  background-color: #024059;
+  text-align: right;
+  padding-right: 35px; }
+
+.mb-text-odd {
+  text-align: left;
+  background-color: #012340;
+  padding-left: 35px; }
+
+#mobile-shown-elements {
+  border: 1px solid #123441; }
+
+.md-card-color {
+  background-color: #F2F0D0; }
+
+#mobile-person-sites {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 30px; }
+
+#mobile-person-desc {
+  font-size: 40px;
+  padding-left: 45px;
+  padding-right: 45px; }
+
+#mobile-search-bar {
+  position: fixed;
+  background-color: #F2F0D0;
+  top: -20px;
+  padding: 20px;
+  font-size: 30px;
+  color: #012340;
+  text-align: center; }
+  #mobile-search-bar ::-webkit-input-placeholder {
+    font-size: 40px;
+    color: #012340; }
+  #mobile-search-bar ::-moz-placeholder {
+    font-size: 40px;
+    color: #012340; }
+
+#technologies-partial {
+  background: url("../img/Background.png") center center no-repeat;
+  background-size: cover;
+  height: 92vh;
+  padding-top: 3%; }
+  #technologies-partial img {
+    width: 90%;
+    max-width: 90px;
+    padding: 10%;
+    background-color: rgba(33, 152, 166, 0.3);
+    border-radius: 4px; }
+  #technologies-partial .tools-text {
+    overflow: visible !important;
+    padding: 0;
+    margin: 0; }
+    #technologies-partial .tools-text img {
+      background-color: transparent !important;
+      max-height: 180px;
+      min-height: 120px;
+      object-fit: cover;
+      object-position: center; }
+  #technologies-partial .client-server-text {
+    padding: 0;
+    margin: 0;
+    overflow: visible !important; }
+    #technologies-partial .client-server-text img {
+      padding: 10%;
+      margin: 10%;
+      background-color: transparent !important;
+      max-height: 300px;
+      min-height: 200px;
+      object-position: center; }
+  #technologies-partial .side-label {
+    padding: 10px;
+    margin: 0;
+    position: sticky;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2198A6;
+    text-align: left;
+    letter-spacing: 6px !important;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg); }
+  #technologies-partial .top-label {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2198A6;
+    text-align: center;
+    letter-spacing: 6px !important; }
+  #technologies-partial #technologies-brace {
+    width: 60%;
+    margin: 0 20%;
+    padding: 0; }
+    #technologies-partial #technologies-brace .full-size-image {
+      background-color: transparent !important;
+      max-height: 40px;
+      min-width: 100%;
+      object-fit: fill;
+      padding: 0;
+      margin: 0;
+      -webkit-filter: invert(1) sepia(1);
+      filter: invert(1) sepia(1); }
+  #technologies-partial #technologies-container {
+    overflow: hidden;
+    display: flex;
+    flex-flow: row wrap; }
+  #technologies-partial .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center; }
+  #technologies-partial #technologies-tools {
+    margin: 2%;
+    background-color: #F2F0D0;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 4px; }
+    #technologies-partial #technologies-tools .side-label {
+      bottom: -20%; }
+  #technologies-partial #technologies-front {
+    width: 46%;
+    margin: 2%;
+    background-color: #F2F0D0;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 4px; }
+    #technologies-partial #technologies-front .side-label {
+      top: 200%;
+      margin: 20px; }
+  #technologies-partial #technologies-server {
+    width: 46%;
+    margin: 2%;
+    background-color: #F2F0D0;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 4px; }
+    #technologies-partial #technologies-server .side-label {
+      top: 100px;
+      margin: 20px; }
+
+body {
   max-height: 100vh !important;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: #123441; }
+
+#shiny {
+  box-shadow: 0px 0px 50px white; }

@@ -1,6 +1,6 @@
 app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
 
-  
+
 
 // Creating empty array to store all students
   $scope.students = [];
@@ -20,8 +20,7 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
 
   CommitsFactory.getCommitNumber()
   .then(function(commits){
-    $scope.collectiveCommits = commits.commits.toString().split('');
-    console.log($scope.collectiveCommits)
+    $scope.collectiveCommits = commits.commits.collectiveCommits.toString().split('');
   })
 
   $scope.showStudentDetails = function(student, event){
