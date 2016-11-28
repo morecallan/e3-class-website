@@ -13,7 +13,6 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
   })
   .setClassToggle('#mobile-search-bar', 'hidden')
   controller.addScene(scene);
-  console.log(window.outerHeight/2);
   // Creating empty array to store all students
   $scope.students = [];
   $scope.lastPerson = "";
@@ -21,6 +20,14 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
   .then (function(allStudents){
     $scope.students = allStudents;
   });
+
+  $("#mobile-search-bar").keyup(() => {
+    if($("#mobile-search-bar").val() === "") {
+      scene.addTo(controller)
+    } else {
+      scene.remove();
+    }
+  })
 
   $scope.show = (that) => {
     $('#mobile-hide-' + $scope.lastPerson).addClass('hidden');
