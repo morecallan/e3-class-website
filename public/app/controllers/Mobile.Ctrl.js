@@ -8,7 +8,7 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
   var scene = new ScrollMagic.Scene({
     offset: 0,
     reverse: true,
-    duration: window.outerHeight*2,
+    duration: window.innerHeight,
     triggerHook: "onEnter"
   })
   .setClassToggle('#mobile-search-bar', 'hidden')
