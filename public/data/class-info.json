@@ -1,213 +1,201 @@
 { "students": {
-
-    "andi": {
-      "firstName": "Andi",
-      "lastName": "DeVois",
-      "fullName": "",
-      "bio": "",
-      "github": "https://github.com/devoisaurus",
-      "linkedin": "",
-      "portfolio": "",
-      "image": "https://lh3.googleusercontent.com/-dvVgZwKTbyw/AAAAAAAAAAI/AAAAAAAAADk/fPKRMYsQGj8/photo.jpg",
-      "tags": []
-    },
     "bernie": {
       "firstName": "Bernie",
       "lastName": "Anderson",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Bernie Anderson",
+      "bio": "Full-stack coder, scientist and technology enthusiast who loves solving tough problems. I'm always looking to learn new things!",
       "github": "https://github.com/bernardanderson",
       "linkedin": "https://www.linkedin.com/in/andersonbm",
-      "portfolio": "",
+      "portfolio": "http://www.bernardanderson.me/",
       "image": "https://avatars3.githubusercontent.com/u/16417888?v=3&s=466",
-      "tags": []
+      "tags": ["Linux", "Checks", "Angular", "Security", "Camera", "Chemistry", "Education", "Dotnet", "Core"]
     },
     "bradley": {
       "firstName": "Bradley",
       "lastName": "Guthrie",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Bradley Guthrie",
+      "bio": "Engineer, mentor, friend with refreshed and improved full stack software development skills.",
       "github": "https://github.com/guthb",
       "linkedin": "https://www.linkedin.com/in/bradleyguthrie",
-      "portfolio": "",
+      "portfolio": "http://www.bradleyguthrie.com",
       "image": "https://avatars0.githubusercontent.com/u/16561785?v=3&s=466",
-      "tags": []
+      "tags": ["bald", "beard", "better", "bradley", "automobiles", "mentoring", "teamwork", "code"]
     },
     "callan": {
       "firstName": "Callan",
       "lastName": "Morrison",
       "fullName": "Callan Morrison",
-      "bio": "A rare combo of people skills & technical affinity.  Innovative,  dedicated worker & quick learner. Not an acceptor of “good enough.” Problem solver.",
+      "bio": "I've been secretly living at NSS for the past year in hopes of learning as much as possible. And to avoid paying rent. Don't tell John.",
       "github": "https://github.com/morecallan",
       "linkedin": "https://www.linkedin.com/in/callanmorrison",
-      "portfolio": "",
+      "portfolio": "https://www.morecallan.com",
       "image": "https://avatars0.githubusercontent.com/u/16550897?v=3&s=466",
-      "tags": []
+      "tags": ["node", "ux", "ui", "start-up", "start up", "tooth fairy", "tooth brushing", "teeth brushing", "kids", "weird", "agile", "angular", "sql", "nosql", "teacher", "teaching assistant", "ta", "rosie", "bonkers", "catalyst", "adoption", "personality", "dog"]
     },
     "chris": {
       "firstName": "Chris",
       "lastName": "Barrett",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Chris Barrett",
+      "bio": "Theater Popcorn Popper > Ice Cream Scooper > Bible Seller > Coffee Maker > Cheese Cutter > Beer Stocker > Percussion Player > Web Developer",
       "github": "https://github.com/csbarrett1",
       "linkedin": "https://www.linkedin.com/in/chris-barrett-031b50108",
-      "portfolio": "",
+      "portfolio": "https://www.linkedin.com/in/chris-barrett-031b50108",
       "image": "https://avatars1.githubusercontent.com/u/16551256?v=3&s=466",
-      "tags": []
+      "tags": ["beer", "beard", "glasses", "bearheart", "drums", "bald", "kindful"]
     },
     "dan": {
       "firstName": "Dan",
       "lastName": "Ventura",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Dan Ventura",
+      "bio": "Life-long learner. I love the ocean and look forward to working with tech related to conservation/exploration. Try something new everyday!",
       "github": "https://github.com/danwventura",
       "linkedin": "https://www.linkedin.com/in/daniel-ventura-6543a570",
-      "portfolio": "",
+      "portfolio": "https://www.danv.io",
       "image": "https://avatars3.githubusercontent.com/u/16571251?v=3&s=466",
-      "tags": []
+      "tags": ["iot", "internet of things", "ocean", "caddy", "icaddy", "delaware", "angular", "c#", ".net", "sass", "materialize", "html5", "html", "css3", "css", "javascript", "jquery", "bio.io", "podcast", "podcasts", "tim ferriss", "blogging", "blog", "blogger", "buddhist", "meditate", "app", "caddy app", "gps", "gps tracker", "gps app", "sharks", "shark", "shark tagging"]
     },
     "david": {
       "firstName": "David",
       "lastName": "Cramb",
-      "fullName": "",
-      "bio": "",
+      "fullName": "David Cramb",
+      "bio": "Nashville-Native (aka., a unicorn), professional with a sense of humor. Entrepreneurially minded. Father of two, and loves games.",
       "github": "https://github.com/davidcramb",
       "linkedin": "https://www.linkedin.com/in/davidcramb",
-      "portfolio": "",
+      "portfolio": "http://www.cramb.co",
       "image": "https://avatars3.githubusercontent.com/u/15351695?v=3&s=466",
-      "tags": []
+      "tags": ["Gamer", "Sales", "Professional", "INTP", "Self-Critical", "Angular", "jQuery", "C#"]
     },
     "dhru": {
       "firstName": "Dhru",
       "lastName": "Upender",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Dhru Upender",
+      "bio": "Straddles line between tech & mgmt. Innovative Leader. Integrates a coordinated plan of attack.  Communicator/Connector. Happily employed",
       "github": "https://github.com/dupender",
       "linkedin": "https://www.linkedin.com/in/dupender",
-      "portfolio": "",
+      "portfolio": "https://www.linkedin.com/in/dupender",
       "image": "https://avatars1.githubusercontent.com/u/13211028?v=3&s=466",
-      "tags": []
+      "tags": ["DevOps", "Process Management", "Leadership", "PMP", "Technologist"]
     },
     "janelle": {
       "firstName": "Janelle",
       "lastName": "Zorvan",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Janelle Zorvan",
+      "bio": "Went to school for something useful for once! Dynamic, tenacious, plays well with others. Won 'Most Likely to Have the Snappiest Comeback'.",
       "github": "https://github.com/JZorvan",
       "linkedin": "https://www.linkedin.com/in/janelle-zorvan-243ab9a3",
-      "portfolio": "",
+      "portfolio": "https://www.janellezorvan.com",
       "image": "https://avatars1.githubusercontent.com/u/16569302?v=3&s=466",
-      "tags": []
+      "tags": ["Angular", "Smoothie", "Green", "Werd", "Word", "Vocabulary", "Girl", "Female", "Rabid", "Foxy", "C#", "Not Bald", ".NET", "Recipe", "Dicks", "Never", "Gonna", "Give", "You", "Up"]
     },
     "katye": {
       "firstName": "Katye",
       "lastName": "Russell",
-      "fullName": "",
+      "fullName": "Katye Russell",
       "bio": "I am the bomb!",
       "github": "https://github.com/complikatyed",
       "linkedin": "https://www.linkedin.com/in/katyerussell",
-      "portfolio": "katyerussell.com",
+      "portfolio": "https://www.katyerussell.com",
       "image": "https://avatars0.githubusercontent.com/u/10421170?v=3&s=466",
       "tags": []
     },
     "matt": {
       "firstName": "Matt",
       "lastName": "Bruton",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Matt Bruton",
+      "bio": "Learner of things, caffeine junkie. Also, I'm friends with pretty much every dog. ",
       "github": "https://github.com/mattbruton",
       "linkedin": "https://www.linkedin.com/in/matt-bruton-490950120",
-      "portfolio": "",
+      "portfolio": "https://www.mattbruton.com",
       "image": "https://avatars3.githubusercontent.com/u/15315743?v=3&s=466",
-      "tags": []
+      "tags": ["dogs","maps","tacos","go" "joe","coffee","typescript"]
     },
     "odie": {
-      "firstName": "Odie",
+      "firstName": "Odigene",
       "lastName": "Joseph",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Odigene Joseph",
+      "bio": "The dancer turned developer that combines an unmatched drive and passion for code with a curious and personable nature.",
       "github": "https://github.com/Odigene12",
       "linkedin": "https://www.linkedin.com/in/odigene-joseph-805b3870",
-      "portfolio": "",
+      "portfolio": "https://www.odigenejoseph.com",
       "image": "https://avatars3.githubusercontent.com/u/16551239?v=3&s=466",
-      "tags": []
+      "tags": ["Dance", "Angular", "Happy", "Passion", "Salsa", "Dancer", "Questions", "C#", "Funny", "Haitian"]
     },
     "paul": {
       "firstName": "Paul",
       "lastName": "Williams",
       "fullName": "Paul Williams",
-      "bio": "",
+      "bio": "A cook who brings his fast paced cooking skills into the tech industry. Never satisfied until the job is done, and is constantly improving.",
       "github": "https://github.com/VikingPaul",
       "linkedin": "https://www.linkedin.com/in/vikingpaul",
-      "portfolio": "",
+      "portfolio": "https://www.VikingPaul.com",
       "image": "https://avatars0.githubusercontent.com/u/16566434?v=3&s=466",
-      "tags": []
+      "tags": ["cookeese", "aboveuber", "pos", "hammered grill", "cooking", "baking", "xamarin", "swift", "signalr", "lenovo", "3d tic-tac-toe", "isaiah", "red hair", "beard", "tall", "food", "restaurant", "fast food", "semi", "truck driver", "dogs", "ugh", "goodlettsville", "java", "android", "ios", "mobile", "point of sale", "tetris", "phaser", "canvas", "fun and games", "cards", "ai", "recipe", "cookie monster", "snickerdoodles", "cake", "nice", "cool", "awesome", "funny", "steak", "candy", "bribe"]
     },
     "ryan": {
       "firstName": "Ryan",
       "lastName": "Bliton",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Ryan Bliton",
+      "bio": "Let me put my abundant energy & enthusiasm to work for you! I'm a quick thinker, problem solver, linguist, yogi & game nerd with big dreams!",
       "github": "https://github.com/ryan-b-writin",
       "linkedin": "https://www.linkedin.com/in/ryan-bilton-73207075",
-      "portfolio": "",
+      "portfolio": "http://www.midnightthunder.net/",
       "image": "https://avatars3.githubusercontent.com/u/13924100?v=3&s=466",
-      "tags": []
+      "tags": ["html", "css", "javascript", "csharp", "c#", ".net", "angular", "bootstrap", "phaser", "dotnet", "unity", "unity3d", "yoga", "japan", "linguistics", "video games", "japanese", "aikido"]
     },
     "sandy": {
-      "firstName": "Sandy",
+      "firstName": "Sandra",
       "lastName": "Jones",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Sandra K. Jones",
+      "bio": "Software developer with a positive attitude who enjoys team or solo projects and has business, e-Commerce, and data center experience.",
       "github": "https://github.com/SandraJones",
       "linkedin": "https://www.linkedin.com/in/sandra-jones-24210176",
-      "portfolio": "",
+      "portfolio": "https://www.sandrakjones.com",
       "image": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTMizP1x2jqHiZYAXX5HdfJc9udxSmej6NXjuUjOe9OqoJPb2cDQQ",
-      "tags": []
+      "tags": ["C#", ".Net", "Jr.Developer", "Day$$Trader", "VolunteerTrack", "Finance", "Angular", "StockApp", "Money", "e-Commerce", "volunteer"]
     },
     "scott": {
       "firstName": "Scott",
       "lastName": "Schaffer",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Scott Schaffer",
+      "bio": "Over 22 years in Software Quality Assurance, Scott is finally making the jump from testing programs into coding them. No challenge too big!",
       "github": "https://github.com/scottpschaffer",
       "linkedin": "https://www.linkedin.com/in/scott-p-schaffer",
-      "portfolio": "",
+      "portfolio": "http://www.scottpschaffer.com/",
       "image": "https://avatars0.githubusercontent.com/u/12372026?v=3&s=466",
-      "tags": []
+      "tags": ["Wordris", "QA", "SQA", "bald", "nose"]
     },
     "sylvia": {
       "firstName": "Sylvia",
       "lastName": "Ma",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Sylvia Ma",
+      "bio": "Business Analyst turned Full Stack Developer. Graduated from University of Michigan. Enjoy shooting photos and making short film.",
       "github": "https://github.com/sylviama",
       "linkedin": "https://www.linkedin.com/in/sylvia-xiangwan-ma-2a199b32",
-      "portfolio": "",
+      "portfolio": "https://www.linkedin.com/in/sylvia-xiangwan-ma-2a199b32",
       "image": "https://avatars0.githubusercontent.com/u/16583776?v=3&s=466",
-      "tags": []
+      "tags": ["JavaScript", "AngularJS", "C#", ".Net", "Filmmaker", "Photographer", "NGO"]
     },
     "tim": {
       "firstName": "Tim",
       "lastName": "Maddux",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Tim Maddux",
+      "bio": "I want to build things that inspire and inform. I believe technology will save us from ourselves. Dogs > cats. Linux > Windows. Wars > Trek.",
       "github": "https://github.com/madduxTim",
       "linkedin": "https://www.linkedin.com/in/tim-maddux",
-      "portfolio": "",
+      "portfolio": "https://www.timmaddux.com",
       "image": "https://avatars1.githubusercontent.com/u/11367017?v=3&s=466",
-      "tags": []
+      "tags": ["Government", "Metro Council", "Legislature", "General Assembly", "Beer", "My Little Pony", "Sandwiches"]
     },
     "zach": {
       "firstName": "Zach",
       "lastName": "Parris",
-      "fullName": "",
-      "bio": "",
+      "fullName": "Zach Parris",
+      "bio": "Human sponge/Jeweler turned Jr Dev determined to soak up all the software knowledge the world has to offer!",
       "github": "https://github.com/ZachParris",
       "linkedin": "https://www.linkedin.com/in/zachjparris",
-      "portfolio": "",
+      "portfolio": "https://www.zachparris.com/",
       "image": "https://avatars1.githubusercontent.com/u/16567459?v=3&s=466",
-      "tags": []
+      "tags": ["podcast", "jewelry", "jeweler", "player", "glasses", "short", "guy", "handsome"]
     }
   }
 }
