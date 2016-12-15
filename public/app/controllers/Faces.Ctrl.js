@@ -6,7 +6,7 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
   $scope.students = [];
 
   $scope.card = {
-    image: "img/class-headshots/group_photo_placeholder.png",
+    image: "https://firebasestorage.googleapis.com/v0/b/classwebsitee3.appspot.com/o/2016_11_19_EC3_Group_0032_T.jpg?alt=media&token=79b19d0e-cb0d-4b4e-8ff0-93e758ce93e9",
     bio: "<p>const EveningCohort3 = { <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
     fullName: "Nashville Software School Evening Cohort 3",
     tech: true
@@ -30,7 +30,7 @@ app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
       removeHalo();
       animateCard();
         $scope.card = {
-          image: "img/class-headshots/group_photo_placeholder.png",
+          image: "https://firebasestorage.googleapis.com/v0/b/classwebsitee3.appspot.com/o/2016_11_19_EC3_Group_0032_T.jpg?alt=media&token=79b19d0e-cb0d-4b4e-8ff0-93e758ce93e9",
           bio: "<p>const EveningCohort3 = { <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
           fullName: "Nashville Software School Evening Cohort 3",
           tech: true
