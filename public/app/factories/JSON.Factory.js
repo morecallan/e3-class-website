@@ -10,7 +10,7 @@ app.factory('JSONFactory', function($http, $q){
           shuffledStudents.push(data.students[oneStudent]);
         };
         for(i in shuffledStudents){
-          var randomNumber = Math.floor(Math.random()*19);
+          var randomNumber = Math.floor(Math.random()*18);
           var tempStudent = shuffledStudents[i];
           shuffledStudents[i] = shuffledStudents[randomNumber];
           shuffledStudents[randomNumber] = tempStudent;
