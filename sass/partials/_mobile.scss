@@ -23,24 +23,24 @@ body {
 }
 
 #mobile-shown-elements {
-  height: 200px;
+  height: 100px;
 }
 
 #mobile-shown-elements > img {
-  height: 200px;
+  height: 100px;
   border-radius: 100%;
 }
 
 #mobile-shown-elements > h2 {
-  margin: 28px 0;
+  margin: 20px 0;
   color: $ycream;
-  font-size: 125px;
+  font-size: 50px;
   text-transform: uppercase;
 
 }
 
 .mb-btn {
-  height: 100px;
+  height: 60px;
   margin: 0;
 }
 
@@ -55,13 +55,13 @@ body {
 .mb-text-even {
   background-color: $blue-mid;
   text-align: right;
-  padding-right: 35px;
+  padding-right: 3px;
 }
 
 .mb-text-odd {
   text-align: left;
   background-color: $blue-dark;
-  padding-left: 35px;
+  padding-left: 3px;
 }
 
 #mobile-shown-elements {
@@ -79,7 +79,7 @@ body {
 }
 
 #mobile-person-desc {
-  font-size: 40px;
+  font-size: 15px;
   padding-left: 45px;
   padding-right: 45px;
 }
@@ -87,19 +87,20 @@ body {
 #mobile-search-bar {
   position: fixed;
   background-color: $ycream;
-  top: -20px;
+  top: 0px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 26px;
   color: $blue-dark;
   text-align: center;
+  height: 0px;
 
   ::-webkit-input-placeholder {
-    font-size: 40px;
+    font-size: 26px;
     color: $blue-dark;
   }
 
   ::-moz-placeholder {
-    font-size: 40px;
+    font-size: 26px;
     color: $blue-dark;
   }
 }
