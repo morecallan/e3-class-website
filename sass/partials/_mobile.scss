@@ -10,6 +10,7 @@ body {
   overflow-x: hidden !important;
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch !important;
+  color: $blue-dark;
 }
 
 .hidden {
@@ -56,6 +57,7 @@ body {
   background-color: $blue-mid;
   text-align: right;
   padding-right: 3px;
+
 }
 
 .mb-text-odd {
@@ -75,13 +77,14 @@ body {
 #mobile-person-sites {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 #mobile-person-desc {
   font-size: 15px;
   padding-left: 45px;
   padding-right: 45px;
+
 }
 
 #mobile-search-bar {
