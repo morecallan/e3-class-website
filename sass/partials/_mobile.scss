@@ -33,15 +33,15 @@ body {
 }
 
 #mobile-shown-elements > h2 {
-  margin: 14px 0;
+  margin: 20px 0;
   color: $ycream;
-  font-size: 60px;
+  font-size: 50px;
   text-transform: uppercase;
 
 }
 
 .mb-btn {
-  height: 100px;
+  height: 60px;
   margin: 0;
 }
 
@@ -56,13 +56,14 @@ body {
 .mb-text-even {
   background-color: $blue-mid;
   text-align: right;
-  padding-right: 17px;
+  padding-right: 3px;
+
 }
 
 .mb-text-odd {
   text-align: left;
   background-color: $blue-dark;
-  padding-left: 17px;
+  padding-left: 3px;
 }
 
 #mobile-shown-elements {
@@ -80,27 +81,29 @@ body {
 }
 
 #mobile-person-desc {
-  font-size: 20px;
-  padding-left: 22px;
-  padding-right: 22px;
+  font-size: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+
 }
 
 #mobile-search-bar {
   position: fixed;
   background-color: $ycream;
-  top: -10px;
-  padding: 10px;
-  font-size: 15px;
+  top: 0px;
+  padding: 20px;
+  font-size: 26px;
   color: $blue-dark;
   text-align: center;
+  height: 0px;
 
   ::-webkit-input-placeholder {
-    font-size: 20px;
+    font-size: 26px;
     color: $blue-dark;
   }
 
   ::-moz-placeholder {
-    font-size: 20px;
+    font-size: 26px;
     color: $blue-dark;
   }
 }
