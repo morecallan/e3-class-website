@@ -192,7 +192,8 @@ body {
   z-index: 11 !important;
   overflow-x: hidden !important;
   overflow-y: scroll !important;
-  -webkit-overflow-scrolling: touch !important; }
+  -webkit-overflow-scrolling: touch !important;
+  color: #012340; }
 
 .hidden {
   visibility: hidden;
@@ -203,16 +204,16 @@ body {
   width: 100vw; }
 
 #mobile-shown-elements {
-  height: 200px; }
+  height: 100px; }
 
 #mobile-shown-elements > img {
-  height: 200px;
+  height: 100px;
   border-radius: 100%; }
 
 #mobile-shown-elements > h2 {
-  margin: 28px 0;
+  margin: 14px 0;
   color: #F2F0D0;
-  font-size: 125px;
+  font-size: 60px;
   text-transform: uppercase; }
 
 .mb-btn {
@@ -228,12 +229,12 @@ body {
 .mb-text-even {
   background-color: #024059;
   text-align: right;
-  padding-right: 35px; }
+  padding-right: 17px; }
 
 .mb-text-odd {
   text-align: left;
   background-color: #012340;
-  padding-left: 35px; }
+  padding-left: 17px; }
 
 #mobile-shown-elements {
   border: 1px solid #123441; }
@@ -244,26 +245,26 @@ body {
 #mobile-person-sites {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 30px; }
+  padding-bottom: 15px; }
 
 #mobile-person-desc {
-  font-size: 40px;
-  padding-left: 45px;
-  padding-right: 45px; }
+  font-size: 20px;
+  padding-left: 22px;
+  padding-right: 22px; }
 
 #mobile-search-bar {
   position: fixed;
   background-color: #F2F0D0;
-  top: -20px;
-  padding: 20px;
-  font-size: 30px;
+  top: -10px;
+  padding: 10px;
+  font-size: 15px;
   color: #012340;
   text-align: center; }
   #mobile-search-bar ::-webkit-input-placeholder {
-    font-size: 40px;
+    font-size: 20px;
     color: #012340; }
   #mobile-search-bar ::-moz-placeholder {
-    font-size: 40px;
+    font-size: 20px;
     color: #012340; }
 
 #technologies-partial {
