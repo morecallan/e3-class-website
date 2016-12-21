@@ -1,6 +1,6 @@
 <!--sticky nav bar that show the group navigation and the technology navigation -->
 <div class="navbar-fixed">
-  <nav>
+  <nav ng-class="[{'bottom-nav': !topNav}, {'top-nav': topNav}]">
     <div class="nav-wrapper">
       <a class="brand-logo center" ng-href="#/people">
         <h3>&#60;Evening Cohort 3/&#62;</h3>
