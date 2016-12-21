@@ -8,7 +8,8 @@ body {
   overflow-x: hidden !important;
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch !important;
-  color: #012340; }
+  color: #012340;
+  text-align: justify; }
 
 .hidden {
   visibility: hidden;
@@ -22,7 +23,8 @@ body {
   height: 100px; }
 
 #mobile-shown-elements > img {
-  height: 100px;
+  margin: 2px 5px;
+  height: 94px;
   border-radius: 100%; }
 
 #mobile-shown-elements > h2 {
@@ -44,12 +46,12 @@ body {
 .mb-text-even {
   background-color: #024059;
   text-align: right;
-  padding-right: 3px; }
+  padding-right: 10px; }
 
 .mb-text-odd {
   text-align: left;
   background-color: #012340;
-  padding-left: 3px; }
+  padding-left: 10px; }
 
 #mobile-shown-elements {
   border: 1px solid #123441; }
@@ -63,7 +65,7 @@ body {
   padding-bottom: 15px; }
 
 #mobile-person-desc {
-  font-size: 15px;
+  font-size: 16px;
   padding-left: 45px;
   padding-right: 45px; }
 
