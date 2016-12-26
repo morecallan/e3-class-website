@@ -37,7 +37,7 @@ body {
 #mobile-shown-elements > h2 {
   margin: 20px 0;
   color: $ycream;
-  font-size: 50px;
+  font-size: 45px;
   text-transform: uppercase;
 
 }
@@ -58,14 +58,16 @@ body {
 .mb-text-even {
   background-color: $blue-mid;
   text-align: right;
-  padding-right: 10px;
+  padding-right: 3px;
+  padding-left: 0;
 
 }
 
 .mb-text-odd {
   text-align: left;
   background-color: $blue-dark;
-  padding-left: 10px;
+  padding-left: 3px;
+  padding-right: 0;
 }
 
 #mobile-shown-elements {

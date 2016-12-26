@@ -30,7 +30,7 @@ body {
 #mobile-shown-elements > h2 {
   margin: 20px 0;
   color: #F2F0D0;
-  font-size: 50px;
+  font-size: 45px;
   text-transform: uppercase; }
 
 .mb-btn {
@@ -46,12 +46,14 @@ body {
 .mb-text-even {
   background-color: #024059;
   text-align: right;
-  padding-right: 10px; }
+  padding-right: 3px;
+  padding-left: 0; }
 
 .mb-text-odd {
   text-align: left;
   background-color: #012340;
-  padding-left: 10px; }
+  padding-left: 3px;
+  padding-right: 0; }
 
 #mobile-shown-elements {
   border: 1px solid #123441; }
