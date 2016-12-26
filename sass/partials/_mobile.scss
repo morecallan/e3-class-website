@@ -11,10 +11,14 @@ body {
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch !important;
   color: $blue-dark;
-  text-align:justify;
 }
 
 .hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
+.hidden-top {
   visibility: hidden;
   height: 0px;
 }

@@ -1,6 +1,8 @@
 "use strict";
 app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
 
+  var scrollCancel = 0;
+
   // init controller
   var controller = new ScrollMagic.Controller();
 
@@ -11,7 +13,7 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
     duration: window.innerHeight,
     triggerHook: "onEnter"
   })
-  .setClassToggle('#mobile-search-bar', 'hidden')
+  .setClassToggle('#mobile-search-bar', 'hidden-top')
   controller.addScene(scene);
   // Creating empty array to store all students
   $scope.students = [];
@@ -29,7 +31,19 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
     }
   })
 
+  window.onscroll = function() {
+    if($("#mobile-search-bar").hasClass("hidden")){
+      if(scrollCancel === 0) {
+        $("#mobile-search-bar").removeClass("hidden");
+      } else {
+        scrollCancel = 0;
+      }
+    }
+  };
+
   $scope.show = (that) => {
+    $("#mobile-search-bar").addClass("hidden");
+    scrollCancel = 1
     $('#mobile-hide-' + $scope.lastPerson).addClass('hidden');
     if ($scope.lastPerson !== that.student.firstName) {
       $scope.lastPerson = that.student.firstName;
@@ -43,6 +57,8 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
       }
     } else {
       $scope.lastPerson = "";
+      $("#mobile-search-bar").removeClass("hidden")
+      scrollCancel = 0
     }
   };
 });
