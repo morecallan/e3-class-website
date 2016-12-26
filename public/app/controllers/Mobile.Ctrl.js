@@ -49,11 +49,12 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
       $scope.lastPerson = that.student.firstName;
       let mainId = 'mobile-' + that.student.firstName;
       let hideId = '#mobile-hide-' + that.student.firstName;
-      $anchorScroll(mainId);
+      // $anchorScroll(mainId);
+      // $anchorScroll.yOffset = 100;
       if ($(hideId).hasClass('hidden')) {
         //window.scrollTo(0, 500);
         $(hideId).removeClass('hidden');
-      } 
+      }
     } else {
       $scope.lastPerson = "";
       $("#mobile-search-bar").removeClass("hidden")

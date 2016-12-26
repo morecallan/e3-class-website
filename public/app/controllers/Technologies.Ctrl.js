@@ -1,4 +1,5 @@
-app.controller('TechnologiesCtrl', function($scope, JSONFactory) {
+app.controller('TechnologiesCtrl', function($scope, $rootScope, JSONFactory) {
+  $rootScope.topNav = true;
   $scope.technologies = {};
   JSONFactory.getTechnologies().then((techs) => {
     $(document).ready(function(){

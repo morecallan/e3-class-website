@@ -1,11 +1,11 @@
 <!--sticky nav bar that show the group navigation and the technology navigation -->
 <div class="navbar-fixed">
-  <nav>
+  <nav ng-class="[{'bottom-nav': !topNav}, {'top-nav': topNav}]">
     <div class="nav-wrapper">
-      <div  class="brand-logo center">
+      <a class="brand-logo center" ng-href="#/people">
         <h3>&#60;Evening Cohort 3/&#62;</h3>
         <h5>Part-Time Students, Full-Time Coders</h5>
-      </div>
+      </a>
 
 
       <ul class="right hide-on-med-and-down">

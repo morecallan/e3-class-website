@@ -3,35 +3,36 @@
   <!-- STICKY SEARCH BAR -->
   <input type="text" id="mobile-search-bar" class="hidden" ng-model="searchTerm" placeholder="Enter a Name/Term">
   <!-- SPLASH IMAGE -->
-  <img src="img/border_v12.png"   class="mb-splash-image" id="mobile-splash-image">
+
+  <img src="img/Mobile_Splash2.png"   class="mb-splash-image" id="mobile-splash-image">
 
   <!-- CARD CONTAINER -->
   <div id="mobile-card-container" ng-repeat="student in students | filter: searchTerm">
-    
+
     <!-- SINGLE CARD -->
     <div id="mobile-{{student.firstName}}" class="md-card-color">
       <!-- NG-CLICK DIV -->
-      <div ng-click="show(this)">  
+      <div ng-click="show(this)">
       <!-- CARD ELEMENTS THAT ARE SHOWN ON PAGE LOAD -->
         <div id="mobile-shown-elements" ng-class-even="'mb-text-even'" ng-class-odd="'mb-text-odd'">
           <img src="{{student.image}}" ng-class-even="'mb-even'" ng-class-odd="'mb-odd'">
           <h2>{{student.firstName}}</h2>
-        </div>  
+        </div>
       </div>
       <!-- CARD ELEMENTS THAT ARE SHOWN ON CLICK  >>REMOVE NG-HIDE>> -->
       <div id="mobile-hide-{{student.firstName}}" class="hidden">
       <!-- NG-CLICK DIV -->
-        <div ng-click="show(this)">  
+        <div ng-click="show(this)">
           <div id="mobile-person-desc">
             <p>{{student.bio}}</p>
           </div>
         </div>
         <div id="mobile-person-sites">
-          <a target="_blank" href="{{student.github}}"><img src="img/github_480.png" class="mb-btn"></a>
-          <a target="_blank" href="{{student.linkedin}}"><img src="img/linkedin.png" class="mb-btn"></a>
-          <a target="_blank" href="{{student.portfolio}}"><img src="img/contact_720.png" class="mb-btn"></a>
+          <a target="_blank" href="{{student.github}}"><img src="img/github_480_blue.png" class="mb-btn"></a>
+          <a target="_blank" href="{{student.linkedin}}"><img src="img/linkedin_blue.png" class="mb-btn"></a>
+          <a target="_blank" href="{{student.portfolio}}"><img src="img/contact_720_blue.png" class="mb-btn"></a>
         </div>
-      </div> 
+      </div>
     </div>
   </div>
 </div>

@@ -1,4 +1,5 @@
-app.controller("SplashCtrl", function($scope, deviceDetector, $location){
+app.controller("SplashCtrl", function($scope, $rootScope, deviceDetector, $location){
+  $rootScope.topNav = false;
 
   var deviceInfo = this;
   deviceInfo.data = deviceDetector;

@@ -1,11 +1,11 @@
 @import "../globals/colors";
 
+
 nav {
-  min-height: 12vh !important;
+  height: 12vh !important;
+  min-height: 85px !important;
   overflow: hidden;
   background-color: $ycream !important;
-
-
   text-align: center;
 
 
@@ -33,4 +33,15 @@ nav {
     width:75px !important;
   }
 
+}
+
+
+.top-nav {
+  position: sticky;
+  top: 0;
+}
+
+.bottom-nav {
+  position: sticky;
+  bottom: 0;
 }
