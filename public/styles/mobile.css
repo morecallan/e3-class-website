@@ -84,15 +84,33 @@ body {
 #mobile-search-bar {
   position: fixed;
   background-color: #F2F0D0;
+  opacity: 0.9;
   top: 0px;
-  padding: 20px;
+  padding: 25px;
   font-size: 26px;
-  color: #012340;
+  color: rgba(2, 64, 89, 0.8);
   text-align: center;
-  height: 0px; }
+  height: 0px;
+  box-shadow: 5px 2px 2px rgba(2, 64, 89, 0.6); }
   #mobile-search-bar ::-webkit-input-placeholder {
     font-size: 26px;
     color: #012340; }
   #mobile-search-bar ::-moz-placeholder {
     font-size: 26px;
     color: #012340; }
+
+#mobile-search-bar::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgba(2, 64, 89, 0.6); }
+
+#mobile-search-bar::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(2, 64, 89, 0.6); }
+
+#mobile-search-bar:-ms-input-placeholder {
+  /* IE 10+ */
+  color: rgba(2, 64, 89, 0.6); }
+
+#mobile-search-bar:-moz-placeholder {
+  /* Firefox 18- */
+  color: rgba(2, 64, 89, 0.6); }
