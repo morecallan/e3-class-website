@@ -1,11 +1,14 @@
 "use strict";
 app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, $anchorScroll){
+  $("#mobile-search-bar").addClass("hidden");
+
 
   var scrollCancel = 0;
 
 
   // init controller
   var controller = new ScrollMagic.Controller();
+
 
   // create a scene
   var scene = new ScrollMagic.Scene({
