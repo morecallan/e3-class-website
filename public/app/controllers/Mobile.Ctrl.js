@@ -3,10 +3,6 @@ app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, 
 
   var scrollCancel = 0;
 
-  //Prevents reload on hashChange
-  $scope.$on('$locationChangeStart', function(ev) {
-    ev.preventDefault();
-  });
 
   // init controller
   var controller = new ScrollMagic.Controller();

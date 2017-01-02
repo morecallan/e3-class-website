@@ -86,17 +86,17 @@ body {
   background-color: #F2F0D0;
   opacity: 0.9;
   top: 0px;
-  padding: 25px;
-  font-size: 26px;
+  padding: 25px 0;
+  font-size: 1.5em;
   color: rgba(2, 64, 89, 0.8);
   text-align: center;
   height: 0px;
   box-shadow: 5px 2px 2px rgba(2, 64, 89, 0.6); }
   #mobile-search-bar ::-webkit-input-placeholder {
-    font-size: 26px;
+    font-size: 2em;
     color: #012340; }
   #mobile-search-bar ::-moz-placeholder {
-    font-size: 26px;
+    font-size: 2em;
     color: #012340; }
 
 #mobile-search-bar::-webkit-input-placeholder {

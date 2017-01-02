@@ -108,20 +108,20 @@ body {
   background-color: $ycream;
   opacity: 0.9;
   top: 0px;
-  padding: 25px;
-  font-size: 26px;
+  padding: 25px 0;
+  font-size: 1.5em;
   color: rgba($blue-mid, 0.8);
   text-align: center;
   height: 0px;
   box-shadow: 5px 2px 2px rgba($blue-mid, 0.6);
 
   ::-webkit-input-placeholder {
-    font-size: 26px;
+    font-size: 2em;
     color: $blue-dark;
   }
 
   ::-moz-placeholder {
-    font-size: 26px;
+    font-size: 2em;
     color: $blue-dark;
   }
 }
