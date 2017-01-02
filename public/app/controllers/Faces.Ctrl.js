@@ -6,7 +6,7 @@ $rootScope.topNav = true;
   $scope.students = [];
 
   $scope.card = {
-    image: "https://firebasestorage.googleapis.com/v0/b/classwebsitee3.appspot.com/o/2016_11_19_EC3_Group_0032_T.jpg?alt=media&token=79b19d0e-cb0d-4b4e-8ff0-93e758ce93e9",
+    image: "https://firebasestorage.googleapis.com/v0/b/classwebsitee3.appspot.com/o/individual_photos%2F2016_11_19_EC3_Group_0032_T%20(1).jpg?alt=media&token=cac52181-62ce-4871-8540-76333f263f23",
     bio: "<p>const EveningCohort3 = { <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
     fullName: "Nashville Software School Evening Cohort 3",
     tech: true
@@ -30,7 +30,7 @@ $rootScope.topNav = true;
       removeHalo();
       animateCard();
         $scope.card = {
-          image: "https://firebasestorage.googleapis.com/v0/b/classwebsitee3.appspot.com/o/2016_11_19_EC3_Group_0032_T.jpg?alt=media&token=79b19d0e-cb0d-4b4e-8ff0-93e758ce93e9",
+          image: "https://firebasestorage.googleapis.com/v0/b/classwebsitee3.appspot.com/o/individual_photos%2F2016_11_19_EC3_Group_0032_T%20(1).jpg?alt=media&token=cac52181-62ce-4871-8540-76333f263f23",
           bio: "<p>const EveningCohort3 = { <br/> &nbsp;dayJobs: true,<br/> &nbsp;coffeeConsumed: '36,823lb', <br/> &nbsp;conqueredValleyOfDespair: true <br/></p>}",
           fullName: "Nashville Software School Evening Cohort 3",
           tech: true
