@@ -1,7 +1,12 @@
 "use strict";
-app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
+app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, $anchorScroll){
 
   var scrollCancel = 0;
+
+  //Prevents reload on hashChange
+  $scope.$on('$locationChangeStart', function(ev) {
+    ev.preventDefault();
+  });
 
   // init controller
   var controller = new ScrollMagic.Controller();
@@ -17,10 +22,12 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
   controller.addScene(scene);
   // Creating empty array to store all students
   $scope.students = [];
+  $scope.firstPerson = "";
   $scope.lastPerson = "";
   JSONFactory.getAllStudents()
   .then (function(allStudents){
     $scope.students = allStudents;
+    $scope.firstPerson = `mobile-${$scope.students[0].firstName}`;
   });
 
   $("#mobile-search-bar").keyup(() => {
@@ -40,6 +47,15 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
       }
     }
   };
+
+  $scope.scrollToFirstStudent = (ev) => {
+    var id = $location.hash();
+    $location.hash($scope.firstPerson);
+    $anchorScroll();
+    $location.hash(id);
+    $("#mobile-search-bar").addClass("hidden");
+    scrollCancel = 1
+  }
 
   $scope.show = (that) => {
     $("#mobile-search-bar").addClass("hidden");
