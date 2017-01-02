@@ -28,6 +28,14 @@ body {
   width: 100vw;
 }
 
+#scroll-button {
+  min-height: 15%;
+  min-width: 100vw;
+  position: absolute;
+  bottom: 0%;
+  z-index: 9999;
+}
+
 #mobile-shown-elements {
   height: 100px;
 }
@@ -69,13 +77,13 @@ body {
 
 .mb-text-odd {
   text-align: left;
-  background-color: $blue-dark;
+  background-color: $blue-light;
   padding-left: 3px;
   padding-right: 0;
 }
 
 #mobile-shown-elements {
-  border: 1px solid $buildings;
+  border: 1px solid $ycream;
 }
 
 .md-card-color {

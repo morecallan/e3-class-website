@@ -8,16 +8,26 @@ body {
   overflow-x: hidden !important;
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch !important;
-  color: #012340;
-  text-align: justify; }
+  color: #012340; }
 
 .hidden {
+  visibility: hidden;
+  height: 0px; }
+
+.hidden-top {
   visibility: hidden;
   height: 0px; }
 
 .mb-splash-image {
   height: 100vh;
   width: 100vw; }
+
+#scroll-button {
+  min-height: 15%;
+  min-width: 100vw;
+  position: absolute;
+  bottom: 0%;
+  z-index: 9999; }
 
 #mobile-shown-elements {
   height: 100px; }
@@ -51,12 +61,12 @@ body {
 
 .mb-text-odd {
   text-align: left;
-  background-color: #012340;
+  background-color: #2198A6;
   padding-left: 3px;
   padding-right: 0; }
 
 #mobile-shown-elements {
-  border: 1px solid #123441; }
+  border: 1px solid #F2F0D0; }
 
 .md-card-color {
   background-color: #F2F0D0; }
