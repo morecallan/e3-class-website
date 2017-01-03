@@ -1,5 +1,5 @@
 "use strict";
-app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
+app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll, deviceDetector){
 
   var scrollCancel = 0;
 
@@ -18,10 +18,22 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll){
   // Creating empty array to store all students
   $scope.students = [];
   $scope.lastPerson = "";
-  JSONFactory.getAllStudents()
-  .then (function(allStudents){
-    $scope.students = allStudents;
-  });
+
+
+  var deviceInfo = this;
+  deviceInfo.data = deviceDetector;
+  deviceInfo.allData = JSON.stringify(deviceInfo, null, 2);
+  if(deviceInfo.data.os == "ios") {
+    JSONFactory.getAllStudentsIOS()
+      .then((allStudents) =>{
+        $scope.students = allStudents;
+      })
+  } else {
+    JSONFactory.getAllStudents()
+      .then (function(allStudents){
+        $scope.students = allStudents;
+      });
+  }
 
   $("#mobile-search-bar").keyup(() => {
     if($("#mobile-search-bar").val() === "") {
