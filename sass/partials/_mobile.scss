@@ -10,9 +10,15 @@ body {
   overflow-x: hidden !important;
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch !important;
+  color: $blue-dark;
 }
 
 .hidden {
+  visibility: hidden;
+  height: 0px;
+}
+
+.hidden-top {
   visibility: hidden;
   height: 0px;
 }
@@ -23,24 +29,25 @@ body {
 }
 
 #mobile-shown-elements {
-  height: 200px;
+  height: 100px;
 }
 
 #mobile-shown-elements > img {
-  height: 200px;
+  margin: 2px 5px;
+  height: 94px;
   border-radius: 100%;
 }
 
 #mobile-shown-elements > h2 {
-  margin: 28px 0;
+  margin: 20px 0;
   color: $ycream;
-  font-size: 125px;
+  font-size: 45px;
   text-transform: uppercase;
 
 }
 
 .mb-btn {
-  height: 100px;
+  height: 60px;
   margin: 0;
 }
 
@@ -55,13 +62,16 @@ body {
 .mb-text-even {
   background-color: $blue-mid;
   text-align: right;
-  padding-right: 35px;
+  padding-right: 3px;
+  padding-left: 0;
+
 }
 
 .mb-text-odd {
   text-align: left;
   background-color: $blue-dark;
-  padding-left: 35px;
+  padding-left: 3px;
+  padding-right: 0;
 }
 
 #mobile-shown-elements {
@@ -75,31 +85,33 @@ body {
 #mobile-person-sites {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 #mobile-person-desc {
-  font-size: 40px;
+  font-size: 16px;
   padding-left: 45px;
   padding-right: 45px;
+
 }
 
 #mobile-search-bar {
   position: fixed;
   background-color: $ycream;
-  top: -20px;
+  top: 0px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 26px;
   color: $blue-dark;
   text-align: center;
+  height: 0px;
 
   ::-webkit-input-placeholder {
-    font-size: 40px;
+    font-size: 26px;
     color: $blue-dark;
   }
 
   ::-moz-placeholder {
-    font-size: 40px;
+    font-size: 26px;
     color: $blue-dark;
   }
 }

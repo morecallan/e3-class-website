@@ -1,6 +1,6 @@
-app.controller("FacesCtrl", function($scope, JSONFactory, CommitsFactory){
+app.controller("FacesCtrl", function($scope, $rootScope, JSONFactory, CommitsFactory){
 
-
+$rootScope.topNav = true;
 
 // Creating empty array to store all students
   $scope.students = [];
