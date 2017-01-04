@@ -1,10 +1,14 @@
 "use strict";
-app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll, deviceDetector){
+app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, $anchorScroll, deviceDetector){
+  $("#mobile-search-bar").addClass("hidden");
+
 
   var scrollCancel = 0;
 
+
   // init controller
   var controller = new ScrollMagic.Controller();
+
 
   // create a scene
   var scene = new ScrollMagic.Scene({
@@ -17,6 +21,7 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll, device
   controller.addScene(scene);
   // Creating empty array to store all students
   $scope.students = [];
+  $scope.firstPerson = "";
   $scope.lastPerson = "";
 
 
@@ -27,12 +32,14 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll, device
     JSONFactory.getAllStudentsIOS()
       .then((allStudents) =>{
         $scope.students = allStudents;
+        $scope.firstPerson = `mobile-${$scope.students[0].firstName}`;
         $("#mobile-search-bar").addClass("ios-hidden");
       })
   } else {
     JSONFactory.getAllStudents()
       .then (function(allStudents){
         $scope.students = allStudents;
+        $scope.firstPerson = `mobile-${$scope.students[0].firstName}`;
       });
   }
 
@@ -53,6 +60,15 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll, device
       }
     }
   };
+
+  $scope.scrollToFirstStudent = (ev) => {
+    var id = $location.hash();
+    $location.hash($scope.firstPerson);
+    $anchorScroll();
+    $location.hash(id);
+    $("#mobile-search-bar").addClass("hidden");
+    scrollCancel = 1
+  }
 
   $scope.show = (that) => {
     $("#mobile-search-bar").addClass("hidden");

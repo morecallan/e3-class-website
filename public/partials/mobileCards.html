@@ -1,10 +1,11 @@
 <link rel="stylesheet" type="text/css" href="/styles/mobile.css">
 <div class="mobile-scroll" id="mobile-page">
   <!-- STICKY SEARCH BAR -->
-  <input type="text" id="mobile-search-bar" class="hidden" ng-model="searchTerm" placeholder="Enter a Name/Term">
+  <input type="text" id="mobile-search-bar" class="hidden" ng-model="searchTerm" placeholder="Search by name or project...">
   <!-- SPLASH IMAGE -->
 
-  <img src="img/Mobile_Splash2.png"   class="mb-splash-image" id="mobile-splash-image">
+  <img src="img/Mobile_Splash.jpg"   class="mb-splash-image" id="mobile-splash-image">
+  <div id="scroll-button" ng-click="scrollToFirstStudent($event)"></div>
 
   <!-- CARD CONTAINER -->
   <div id="mobile-card-container" ng-repeat="student in students | filter: searchTerm">
@@ -30,7 +31,7 @@
         <div id="mobile-person-sites">
           <a target="_blank" href="{{student.github}}"><img src="img/github_480_blue.png" class="mb-btn"></a>
           <a target="_blank" href="{{student.linkedin}}"><img src="img/linkedin_blue.png" class="mb-btn"></a>
-          <a target="_blank" href="{{student.portfolio}}"><img src="img/contact_720_blue.png" class="mb-btn"></a>
+          <a target="_blank" href="{{student.portfolio}}"><img src="img/portfolio2.png" class="mb-btn"></a>
         </div>
       </div>
     </div>
