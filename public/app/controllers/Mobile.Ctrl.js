@@ -27,6 +27,7 @@ app.controller("MobileCtrl", function($scope, JSONFactory, $anchorScroll, device
     JSONFactory.getAllStudentsIOS()
       .then((allStudents) =>{
         $scope.students = allStudents;
+        $("#mobile-search-bar").addClass("ios-hidden");
       })
   } else {
     JSONFactory.getAllStudents()
