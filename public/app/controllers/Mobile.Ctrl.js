@@ -1,5 +1,5 @@
 "use strict";
-app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, $anchorScroll){
+app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, $anchorScroll, deviceDetector){
   $("#mobile-search-bar").addClass("hidden");
 
 
@@ -23,11 +23,24 @@ app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, 
   $scope.students = [];
   $scope.firstPerson = "";
   $scope.lastPerson = "";
-  JSONFactory.getAllStudents()
-  .then (function(allStudents){
-    $scope.students = allStudents;
-    $scope.firstPerson = `mobile-${$scope.students[0].firstName}`;
-  });
+
+
+  var deviceInfo = this;
+  deviceInfo.data = deviceDetector;
+  deviceInfo.allData = JSON.stringify(deviceInfo, null, 2);
+  if(deviceInfo.data.os == "ios") {
+    JSONFactory.getAllStudentsIOS()
+      .then((allStudents) =>{
+        $scope.students = allStudents;
+        $scope.firstPerson = `mobile-${$scope.students[0].firstName}`;
+      })
+  } else {
+    JSONFactory.getAllStudents()
+      .then (function(allStudents){
+        $scope.students = allStudents;
+        $scope.firstPerson = `mobile-${$scope.students[0].firstName}`;
+      });
+  }
 
   $("#mobile-search-bar").keyup(() => {
     if($("#mobile-search-bar").val() === "") {

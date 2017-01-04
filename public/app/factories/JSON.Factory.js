@@ -19,6 +19,20 @@ app.factory('JSONFactory', function($http, $q){
       });
     });
   };
+  getAllStudentsIOS = () => {
+    return $q(function(resolve) {
+      $http({
+        method: 'GET',
+        url: '/data/class-info.json'
+      }).success(function(data) {
+        studs = [];
+        for(oneStudent in data.students) {
+          studs.push(data.students[oneStudent]);
+        }
+        resolve(studs);
+      });
+    });
+  };
   getTechnologies = () => {
     return $q(function(resolve) {
       $http({
@@ -44,5 +58,5 @@ app.factory('JSONFactory', function($http, $q){
       });
     });
   };
-  return {getAllStudents:getAllStudents, getTechnologies:getTechnologies};
+  return {getAllStudents:getAllStudents, getAllStudentsIOS:getAllStudentsIOS, getTechnologies:getTechnologies};
 });
