@@ -8,10 +8,17 @@ body {
   overflow-x: hidden !important;
   overflow-y: scroll !important;
   -webkit-overflow-scrolling: touch !important;
-  color: #012340;
-  text-align: justify; }
+  color: #012340; }
 
 .hidden {
+  visibility: hidden;
+  height: 0px; }
+
+.hidden-top {
+  visibility: hidden;
+  height: 0px; }
+
+.ios-hidden {
   visibility: hidden;
   height: 0px; }
 
