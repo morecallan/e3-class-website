@@ -18,6 +18,13 @@ body {
   visibility: hidden;
   height: 0px; }
 
+<<<<<<< HEAD
+=======
+.ios-hidden {
+  visibility: hidden;
+  height: 0px; }
+
+>>>>>>> f20ff31f530c0b250ff632cad93a2da7354ca58b
 .mb-splash-image {
   height: 100vh;
   width: 100vw; }

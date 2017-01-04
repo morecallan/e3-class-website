@@ -33,6 +33,7 @@ app.controller("MobileCtrl", function($scope, $timeout, JSONFactory, $location, 
       .then((allStudents) =>{
         $scope.students = allStudents;
         $scope.firstPerson = `mobile-${$scope.students[0].firstName}`;
+        $("#mobile-search-bar").addClass("ios-hidden");
       })
   } else {
     JSONFactory.getAllStudents()
